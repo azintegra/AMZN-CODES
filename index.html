@@ -11,14 +11,32 @@
     .tab { padding:0.5rem 1.5rem; border-radius:999px; border:1px solid #444; background:#111; cursor:pointer; }
     .tab.active { background:#333; border-color:#666; }
     .grid { display:grid; gap:1.5rem; padding:1rem; max-width:900px; margin:auto; }
-    .card { background:#111; border:1px solid #333; border-radius:8px; padding:1.5rem; }
+    .card { background:#111; border:1px solid #333; border-radius:12px; padding:1.5rem; }
     .community { font-weight:bold; font-size:1.3rem; margin:0; }
     .address { color:#aaa; font-size:0.9rem; margin:0.3rem 0 1rem; }
     .codes { margin:1rem 0; }
-    .code-pill { display:inline-block; background:#222; border:1px solid #555; color:#fff; padding:0.4rem 1rem; border-radius:999px; margin:0.3rem; font-family:monospace; }
-    .street-btn { background:#222; color:#fff; border:1px solid #555; padding:0.6rem 1.2rem; border-radius:6px; cursor:pointer; text-decoration:none; display:inline-block; margin-top:1rem; }
+    .code-pill { 
+        display:inline-block; 
+        background:#1a1a1a; 
+        border:1px solid #555; 
+        color:#fff; 
+        padding:0.4rem 1rem; 
+        border-radius:999px; 
+        margin:0.3rem; 
+        font-family:monospace; 
+    }
+    .street-btn { 
+        background:#1a1a1a; 
+        color:#fff; 
+        border:1px solid #555; 
+        padding:0.6rem 1.2rem; 
+        border-radius:8px; 
+        cursor:pointer; 
+        text-decoration:none; 
+        display:inline-block; 
+        margin-top:1rem; 
+    }
     .street-btn:hover { background:#333; }
-    .empty { text-align:center; color:#888; }
   </style>
 </head>
 <body>
@@ -28,94 +46,82 @@
       <div class="tab active" data-type="Residential">Residential</div>
       <div class="tab" data-type="Apartments">Apartments</div>
       <div class="tab" data-type="Student Housing">Student Housing</div>
-      <div class="tab" data-type="Business">Business</div>
+      <div class="tab" data-type="Businesses">Businesses</div>
     </div>
   </header>
   <div class="grid" id="grid"></div>
 
-<script>
-const dataUrl = 'data.json';
-let allData = [];
+  <script>
+    const dataUrl = 'data.json';
+    let allData = [];
 
-function normalizeType(type) {
-  if (!type) return "Residential";
-  const t = type.trim().toLowerCase();
-
-  if (t === "residential") return "Residential";
-  if (t === "apartment" || t === "apartments") return "Apartments";
-  if (t === "student housing" || t === "student" || t === "studenthousing") return "Student Housing";
-  if (t === "business" || t === "businesses") return "Business";
-
-  console.warn("Unknown type found:", type);
-  return "Residential";
-}
-
-fetch(dataUrl)
-  .then(res => res.json())
-  .then(data => {
-    allData = data.map(item => ({
-      ...item,
-      type: normalizeType(item.type),
-      gateCodes: Array.isArray(item.gateCodes)
-        ? item.gateCodes.map(code => String(code).padStart(4, "0"))
-        : []
-    }));
-
-    render("Residential");
-  })
-  .catch(err => {
-    document.getElementById('grid').innerHTML = "<p class='empty'>Failed to load data.json</p>";
-    console.error("Fetch error:", err);
-  });
-
-document.querySelectorAll('.tab').forEach(tab => {
-  tab.addEventListener('click', () => {
-    document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
-    tab.classList.add('active');
-    render(tab.dataset.type);
-  });
-});
-
-function render(type) {
-  const grid = document.getElementById('grid');
-  grid.innerHTML = "";
-
-  const filtered = allData
-    .filter(item => item.type === type)
-    .sort((a,b) => a.community.localeCompare(b.community));
-
-  if (filtered.length === 0) {
-    grid.innerHTML = "<p class='empty'>No entries for this category.</p>";
-    return;
-  }
-
-  filtered.forEach(item => {
-    const card = document.createElement('div');
-    card.className = 'card';
-
-    const address = Array.isArray(item.addresses)
-      ? item.addresses[0]
-      : item.address || "";
-
-    card.innerHTML = `
-      <h2 class="community">${item.community}</h2>
-      <p class="address">${address}</p>
-      <div class="codes">
-        <strong>Gate Codes</strong><br>
-        ${item.gateCodes.length
-          ? item.gateCodes.map(code => `<span class="code-pill">#${code}</span>`).join(" ")
-          : "<span class='empty'>No gate codes listed</span>"
+    fetch(dataUrl)
+      .then(res => res.json())
+      .then(data => {
+        if (data.communities && Array.isArray(data.communities)) {
+          allData = data.communities;
+        } else if (Array.isArray(data)) {
+          allData = data;
+        } else {
+          throw new Error("Invalid JSON structure");
         }
-      </div>
-      <a href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(address + ', Tucson AZ')}" 
-         target="_blank" 
-         rel="noopener noreferrer"
-         class="street-btn">Street View</a>
-    `;
+        render('Residential');
+      })
+      .catch(err => {
+        console.error('Fetch error:', err);
+        document.getElementById('grid').innerHTML =
+          '<p style="text-align:center;color:#888;">Failed to load data.json</p>';
+      });
 
-    grid.appendChild(card);
-  });
-}
-</script>
+    document.querySelectorAll('.tab').forEach(tab => {
+      tab.addEventListener('click', () => {
+        document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+        tab.classList.add('active');
+        render(tab.dataset.type);
+      });
+    });
+
+    function render(type) {
+      const grid = document.getElementById('grid');
+      grid.innerHTML = '';
+
+      const filtered = allData.filter(item =>
+        item.type &&
+        item.type.trim().toLowerCase() === type.trim().toLowerCase()
+      );
+
+      if (filtered.length === 0) {
+        grid.innerHTML =
+          '<p style="text-align:center;color:#888;">No entries for this category.</p>';
+        return;
+      }
+
+      filtered.forEach(item => {
+        const card = document.createElement('div');
+        card.className = 'card';
+
+        const codesHTML = Array.isArray(item.gateCodes) && item.gateCodes.length
+          ? item.gateCodes
+              .filter(code => code && String(code).length === 4)
+              .map(code => `<span class="code-pill">#${code}</span>`)
+              .join('')
+          : '<span style="color:#777;">No gate codes listed</span>';
+
+        card.innerHTML = `
+          <h2 class="community">${item.community}</h2>
+          <p class="address">${item.address}</p>
+          <div class="codes">
+            <strong>Gate Codes</strong><br>
+            ${codesHTML}
+          </div>
+          <a href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(item.address)}"
+             target="_blank"
+             class="street-btn">Street View</a>
+        `;
+
+        grid.appendChild(card);
+      });
+    }
+  </script>
 </body>
 </html>
