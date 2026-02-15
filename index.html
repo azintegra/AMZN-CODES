@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Filter</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        .tabs { display: flex; }
+        .tab { margin: 0 10px; padding: 10px; cursor: pointer; border: 1px solid #ccc; }
+        .tab-content { display: none; padding: 10px; border: 1px solid #ccc; margin-top: 10px; }
+        .active { background-color: #f1f1f1; }
+    </style>
+</head>
+<body>
+    <h1>Filter Communities by Type</h1>
+    <div class="tabs">
+        <div class="tab" onclick="showTab('all')">All</div>
+        <div class="tab" onclick="showTab('typeA')">Type A</div>
+        <div class="tab" onclick="showTab('typeB')">Type B</div>
+    </div>
+
+    <div id="all" class="tab-content"> 
+        <h2>All Communities</h2>
+        <p>List of all communities.</p>
+    </div>
+    <div id="typeA" class="tab-content"> 
+        <h2>Type A Communities</h2>
+        <p>List of Type A communities.</p>
+    </div>
+    <div id="typeB" class="tab-content">
+        <h2>Type B Communities</h2>
+        <p>List of Type B communities.</p>
+    </div>
+
+    <script>
+        function showTab(tabId) {
+            const contents = document.querySelectorAll('.tab-content');
+            contents.forEach(content => {
+                content.style.display = 'none';
+            });
+            document.getElementById(tabId).style.display = 'block';
+
+            const tabs = document.querySelectorAll('.tab');
+            tabs.forEach(tab => {
+                tab.classList.remove('active');
+            });
+            event.currentTarget.classList.add('active');
+        }
+
+        // Initialize by showing all communities
+        showTab('all');
+    </script>
+</body>
+</html>
