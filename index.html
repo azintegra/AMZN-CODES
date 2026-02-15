@@ -1,55 +1,185 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Community Filter</title>
-    <style>
-        body { font-family: Arial, sans-serif; }
-        .tabs { display: flex; }
-        .tab { margin: 0 10px; padding: 10px; cursor: pointer; border: 1px solid #ccc; }
-        .tab-content { display: none; padding: 10px; border: 1px solid #ccc; margin-top: 10px; }
-        .active { background-color: #f1f1f1; }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gate Codes</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #000;
+      color: #fff;
+    }
+
+    header {
+      text-align: center;
+      padding: 1.5rem 1rem 1rem;
+      border-bottom: 1px solid #222;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 1.8rem;
+      font-weight: 600;
+    }
+
+    .tabs {
+      display: flex;
+      justify-content: center;
+      gap: 0.75rem;
+      margin-top: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .tab {
+      padding: 0.5rem 1.2rem;
+      border-radius: 999px;
+      border: 1px solid #444;
+      background: #111;
+      cursor: pointer;
+      font-size: 0.9rem;
+    }
+
+    .tab.active {
+      background: #333;
+      border-color: #666;
+    }
+
+    .grid {
+      max-width: 900px;
+      margin: auto;
+      padding: 1.5rem 1rem 3rem;
+      display: grid;
+      gap: 1.5rem;
+    }
+
+    .card {
+      background: #111;
+      border: 1px solid #333;
+      border-radius: 12px;
+      padding: 1.5rem;
+    }
+
+    .community {
+      font-size: 1.3rem;
+      font-weight: 600;
+      margin: 0 0 0.75rem 0;
+    }
+
+    .address {
+      color: #aaa;
+      font-size: 0.9rem;
+      margin: 0.2rem 0;
+    }
+
+    .codes {
+      margin-top: 1rem;
+    }
+
+    .code-pill {
+      display: inline-block;
+      background: #222;
+      border: 1px solid #555;
+      padding: 0.4rem 1rem;
+      border-radius: 999px;
+      margin: 0.3rem 0.3rem 0 0;
+      font-family: monospace;
+    }
+
+    .street-btn {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.6rem 1.2rem;
+      border-radius: 8px;
+      border: 1px solid #555;
+      background: #222;
+      color: #fff;
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+
+    .street-btn:hover {
+      background: #333;
+    }
+  </style>
 </head>
 <body>
-    <h1>Filter Communities by Type</h1>
-    <div class="tabs">
-        <div class="tab" onclick="showTab('all')">All</div>
-        <div class="tab" onclick="showTab('typeA')">Type A</div>
-        <div class="tab" onclick="showTab('typeB')">Type B</div>
-    </div>
 
-    <div id="all" class="tab-content"> 
-        <h2>All Communities</h2>
-        <p>List of all communities.</p>
-    </div>
-    <div id="typeA" class="tab-content"> 
-        <h2>Type A Communities</h2>
-        <p>List of Type A communities.</p>
-    </div>
-    <div id="typeB" class="tab-content">
-        <h2>Type B Communities</h2>
-        <p>List of Type B communities.</p>
-    </div>
+<header>
+  <h1>Gate Codes</h1>
+  <div class="tabs">
+    <div class="tab active" data-type="Residential">Residential</div>
+    <div class="tab" data-type="Apartments">Apartments</div>
+    <div class="tab" data-type="Student Housing">Student Housing</div>
+    <div class="tab" data-type="Businesses">Businesses</div>
+  </div>
+</header>
 
-    <script>
-        function showTab(tabId) {
-            const contents = document.querySelectorAll('.tab-content');
-            contents.forEach(content => {
-                content.style.display = 'none';
-            });
-            document.getElementById(tabId).style.display = 'block';
+<div class="grid" id="grid"></div>
 
-            const tabs = document.querySelectorAll('.tab');
-            tabs.forEach(tab => {
-                tab.classList.remove('active');
-            });
-            event.currentTarget.classList.add('active');
-        }
+<script>
+let allData = [];
 
-        // Initialize by showing all communities
-        showTab('all');
-    </script>
+fetch('data.json')
+  .then(res => res.json())
+  .then(data => {
+    allData = data;
+    render('Residential');
+  });
+
+document.querySelectorAll('.tab').forEach(tab => {
+  tab.addEventListener('click', () => {
+    document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+    tab.classList.add('active');
+    render(tab.dataset.type);
+  });
+});
+
+function render(type) {
+  const grid = document.getElementById('grid');
+  grid.innerHTML = '';
+
+  const filtered = allData.filter(item => item.type === type);
+
+  if (!filtered.length) {
+    grid.innerHTML = '<p style="text-align:center;color:#888;">No entries found.</p>';
+    return;
+  }
+
+  filtered.forEach(item => {
+    const card = document.createElement('div');
+    card.className = 'card';
+
+    const addressesHTML = item.addresses
+      .map(addr => `<p class="address">${addr}</p>`)
+      .join('');
+
+    const codesHTML = item.gateCodes.length
+      ? item.gateCodes.map(code =>
+          `<span class="code-pill">#${code}</span>`
+        ).join(' ')
+      : '<p style="color:#888;">No Gate Codes Listed</p>';
+
+    card.innerHTML = `
+      <h2 class="community">${item.community}</h2>
+      ${addressesHTML}
+      <div class="codes">
+        <strong>Gate Codes</strong><br>
+        ${codesHTML}
+      </div>
+      <a href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(item.addresses[0] + ', Tucson AZ')}"
+         target="_blank"
+         rel="noopener noreferrer"
+         class="street-btn">
+         Street View
+      </a>
+    `;
+
+    grid.appendChild(card);
+  });
+}
+</script>
+
 </body>
 </html>
