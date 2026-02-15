@@ -1,1770 +1,1177 @@
-{
-  "communities": [
-    {
-      "community": "Agave Apartments",
-      "type": "Residential",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "444 W Orange Grove Rd, Tucson",
-          "gateCodes": [
-            "6417"
-          ]
-        }
-      ]
-    },
-    {
-      "community": "Amphi",
-      "type": "Residential",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "1560 W Fort Lowell, Tucson",
-          "gateCodes": [
-            "1661",
-            "4537",
-            "4637",
-            "7025",
-            "8777"
-          ]
-        }
-      ]
-    },
-    {
-      "community": "Aspire Tucson",
-      "type": "Student Housing",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "905 N Tyndall Ave, Tucson",
-          "gateCodes": [
-            "0820"
-          ]
-        }
-      ]
-    },
-    {
-      "community": "Avra Foothills Estates",
-      "type": "Residential",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "12001 W Calle Madero, Marana",
-          "gateCodes": [
-            "1029"
-          ]
-        }
-      ]
-    },
-    {
-      "community": "Balboa Heights",
-      "type": "Residential",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "2621 N Estrella Ave, Tucson",
-          "gateCodes": [
-            "0982",
-            "2621"
-          ]
-        }
-      ]
-    },
-    {
-      "community": "Barrio Blue Moon",
-      "type": "Residential",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "1401 N Oracle Rd, Tucson",
-          "gateCodes": [
-            "3120"
-          ]
-        }
-      ]
-    },
-    {
-      "community": "Barrio Viejo",
-      "type": "Residential",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "201 S Stone Ave #502, Tucson",
-          "gateCodes": [
-            "1121",
-            "3171"
-          ]
-        }
-      ]
-    },
-    {
-      "community": "Bear Canyon",
-      "type": "Apartments",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "2238 N Catalina Vista Loop, Tucson",
-          "gateCodes": [
-            "8618"
-          ]
-        },
-        {
-          "name": "Apartments",
-          "address": "9055 E Catalina Hwy, Tucson",
-          "gateCodes": [
-            "4621"
-          ]
-        }
-      ]
-    },
-    {
-      "community": "Bellas Catalinas Estates",
-      "type": "Residential",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "4496 N Via Bellas Catalinas, Tucson",
-          "gateCodes": []
-        }
-      ]
-    },
-    {
-      "community": "Blenman-Elm",
-      "type": "Residential",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "1800 N Stone Ave, Tucson",
-          "gateCodes": [
-            "0220",
-            "1730",
-            "2020"
-          ]
-        }
-      ]
-    },
-    {
-      "community": "Bonita Ridge",
-      "type": "Residential",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "4802-4862 N Bonita Ridge Ave, Tucson",
-          "gateCodes": [
-            "1492"
-          ]
-        }
-      ]
-    },
-    {
-      "community": "Cabana Bridges",
-      "type": "Apartments",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "1102 E 36th St, Tucson",
-          "gateCodes": []
-        }
-      ]
-    },
-    {
-      "community": "Campus Crossings at Star Pass",
-      "type": "Student Housing",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "2525 W Anklam Rd, Tucson",
-          "gateCodes": [
-            "2525"
-          ]
-        }
-      ]
-    },
-    {
-      "community": "Canada Hills Estates",
-      "type": "Residential",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "10430 N Stargazer Dr, Oro Valley",
-          "gateCodes": [
-            "5433"
-          ]
-        }
-      ]
-    },
-    {
-      "community": "Canoa Terrace",
-      "type": "Apartments",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "5812 S Azure Vista Way, Green Valley",
-          "gateCodes": []
-        }
-      ]
-    },
-    {
-      "community": "Casa Deena Apartments",
-      "type": "Apartments",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "638 E Elm St, Tucson",
-          "gateCodes": [
-            "3052"
-          ]
-        }
-      ]
-    },
-    {
-      "community": "Casas Adobes",
-      "type": "Residential",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "4701 E Ina Rd, Tucson",
-          "gateCodes": [
-            "6545",
-            "7003",
-            "9826"
-          ]
-        }
-      ]
-    },
-    {
-      "community": "Casitas on Catalina",
-      "type": "Apartments",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "9125 E Catalina Hwy, Tucson",
-          "gateCodes": []
-        }
-      ]
-    },
-    {
-      "community": "Catalina Foothills Estates",
-      "type": "Residential",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "9125 E Catalina Hwy, Tucson",
-          "gateCodes": []
-        }
-      ]
-    },
-    {
-      "community": "Catalina Vista",
-      "type": "Apartments",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "2291 N Powder Horn Dr, Tucson",
-          "gateCodes": [
-            "4128"
-          ]
-        }
-      ]
-    },
-    {
-      "community": "Continental Ranch",
-      "type": "Residential",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "102-7178 W Ina Rd, Marana",
-          "gateCodes": [
-            "0610",
-            "1224",
-            "5225",
-            "8608",
-            "9266"
-          ]
-        }
-      ]
-    },
-    {
-      "community": "Continental Reserve",
-      "type": "Residential",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "6101 W Arizona Pavilions Dr, Marana",
-          "gateCodes": []
-        }
-      ]
-    },
-    {
-      "community": "Cortland on the Loop",
-      "type": "Apartments",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "50 W River Rd, Tucson",
-          "gateCodes": [
-            "6160"
-          ]
-        }
-      ]
-    },
-    {
-      "community": "Coyote Ridge",
-      "type": "Residential",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "846 W Sleeping Snake Pl, Marana",
-          "gateCodes": [
-            "1978"
-          ]
-        }
-      ]
-    },
-    {
-      "community": "Dakotah Hills",
-      "type": "Apartments",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "5675 N Camino Esplendora, Tucson",
-          "gateCodes": []
-        }
-      ]
-    },
-    {
-      "community": "Descanso Estates",
-      "type": "Residential",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "10504 E Camino Palo Verde, Tucson",
-          "gateCodes": [
-            "2511"
-          ]
-        }
-      ]
-    },
-    {
-      "community": "Desert Springs Apartments",
-      "type": "Apartments",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "6710 E Golf Links Rd, Tucson",
-          "gateCodes": []
-        }
-      ]
-    },
-    {
-      "community": "Desert Willow Ranch",
-      "type": "Residential",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "2468 N Wychwood Ct, Marana",
-          "gateCodes": [
-            "2580"
-          ]
-        }
-      ]
-    },
-    {
-      "community": "Dove Mountain",
-      "type": "Residential",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "13960 N Sonoran Links Ct, Marana",
-          "gateCodes": [
-            "0612",
-            "1010",
-            "1102",
-            "1112",
-            "1125",
-            "1131",
-            "1604",
-            "1745",
-            "2017",
-            "2434",
-            "2442",
-            "2830",
-            "3741",
-            "3928",
-            "5150",
-            "6157",
-            "6506",
-            "8145",
-            "8442",
-            "8811",
-            "9261",
-            "9855",
-            "9876"
-          ]
-        }
-      ]
-    },
-    {
-      "community": "Dunbar Spring",
-      "type": "Residential",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "119 W Navajo St, Tucson",
-          "gateCodes": [
-            "0514",
-            "7016"
-          ]
-        }
-      ]
-    },
-    {
-      "community": "East Tucson",
-      "type": "Residential",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "1530 E Snyder Rd, Tucson",
-          "gateCodes": [
-            "0354",
-            "3434",
-            "4295",
-            "7007",
-            "8342"
-          ]
-        }
-      ]
-    },
-    {
-      "community": "Echo Luxury Apartments",
-      "type": "Apartments",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "6901 E Broadway Blvd, Tucson",
-          "gateCodes": []
-        }
-      ]
-    },
-    {
-      "community": "El Presidio",
-      "type": "Residential",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "350 E Congress St, Tucson",
-          "gateCodes": [
-            "3035"
-          ]
-        }
-      ]
-    },
-    {
-      "community": "Empire Vista",
-      "type": "Residential",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "2414 E Agave Vista Dr, Marana",
-          "gateCodes": [
-            "2981"
-          ]
-        }
-      ]
-    },
-    {
-      "community": "Encantada Saguaro National",
-      "type": "Apartments",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "5750 S Houghton Rd, Tucson",
-          "gateCodes": []
-        }
-      ]
-    },
-    {
-      "community": "Enclave de Nube",
-      "type": "Residential",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "12595 E Fort Lowell Rd, Tucson",
-          "gateCodes": [
-            "0007",
-            "0104",
-            "1271",
-            "1492",
-            "3110",
-            "3257",
-            "5146",
-            "5862",
-            "6727",
-            "6752",
-            "7515",
-            "8367",
-            "9833"
-          ]
-        }
-      ]
-    },
-    {
-      "community": "Flowing Wells",
-      "type": "Residential",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "4111 N Flowing Wells, Tucson",
-          "gateCodes": [
-            "0290",
-            "8888"
-          ]
-        }
-      ]
-    },
-    {
-      "community": "Foothills / Sabino",
-      "type": "Residential",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "7430 E Calle Perpetuo, Tucson",
-          "gateCodes": []
-        }
-      ]
-    },
-    {
-      "community": "Foothills II",
-      "type": "Residential",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "7046 N Mercer Spring Pl, Tucson",
-          "gateCodes": []
-        }
-      ]
-    },
-    {
-      "community": "Gateway Apartments",
-      "type": "Apartments",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "1410 N Oracle Rd, Tucson",
-          "gateCodes": [
-            "7308"
-          ]
-        }
-      ]
-    },
-    {
-      "community": "Green Ridge Estates",
-      "type": "Residential",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "10369 E Sonoran Vista Trl, Tucson",
-          "gateCodes": []
-        }
-      ]
-    },
-    {
-      "community": "Green Valley",
-      "type": "Residential",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "1219 W Cholla Crest Dr, Oro Valley",
-          "gateCodes": [
-            "2355"
-          ]
-        }
-      ]
-    },
-    {
-      "community": "Hacienda del Rio",
-      "type": "Apartments",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "3517 N Camino La Jicarrilla, Tucson",
-          "gateCodes": []
-        }
-      ]
-    },
-    {
-      "community": "Haciendas Catalina del Rey",
-      "type": "Residential",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "5732 N Calle De La Reina, Tucson",
-          "gateCodes": [
-            "9511"
-          ]
-        }
-      ]
-    },
-    {
-      "community": "Harrison Park Apartments",
-      "type": "Apartments",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "350 N Harrison Rd, Tucson",
-          "gateCodes": []
-        }
-      ]
-    },
-    {
-      "community": "Houghton Reserve",
-      "type": "Residential",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "10338 E Red Slate Pl, Tucson",
-          "gateCodes": []
-        }
-      ]
-    },
-    {
-      "community": "JD Ranch",
-      "type": "Residential",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "14221 E Wild Jesse Way, Vail",
-          "gateCodes": []
-        }
-      ]
-    },
-    {
-      "community": "Jefferson Park",
-      "type": "Residential",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "250 E Grant Rd, Tucson",
-          "gateCodes": [
-            "1234"
-          ]
-        }
-      ]
-    },
-    {
-      "community": "John Spring",
-      "type": "Residential",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "211 W King St, Tucson",
-          "gateCodes": [
-            "2323",
-            "6590"
-          ]
-        }
-      ]
-    },
-    {
-      "community": "Keeling",
-      "type": "Residential",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "557 W Thurber St, Tucson",
-          "gateCodes": [
-            "5050"
-          ]
-        }
-      ]
-    },
-    {
-      "community": "L6 Apartments",
-      "type": "Apartments",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "835 N 6th Ave, Tucson",
-          "gateCodes": [
-            "3241"
-          ]
-        }
-      ]
-    },
-    {
-      "community": "La Hacienda Apartment Homes",
-      "type": "Apartments",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "6161 E Pima St, Tucson",
-          "gateCodes": []
-        }
-      ]
-    },
-    {
-      "community": "La Reserve",
-      "type": "Residential",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "2133 E Buck Ridge Pl, Marana",
-          "gateCodes": [
-            "7032"
-          ]
-        }
-      ]
-    },
-    {
-      "community": "Lakes at",
-      "type": "Residential",
-      "subCommunities": [
-        {
-          "name": "Castle Rock",
-          "address": "2444 N Lightning A Dr, Marana",
-          "gateCodes": [
-            "5219"
-          ]
-        },
-        {
-          "name": "Castle rock",
-          "address": "9433 E Star Water Dr, Tucson",
-          "gateCodes": [
-            "0553"
-          ]
-        },
-        {
-          "name": "castle rock",
-          "address": "9247 E Lakeside Ct, Tucson",
-          "gateCodes": [
-            "1957"
-          ]
-        }
-      ]
-    },
-    {
-      "community": "Lalo Guerrero Apartments",
-      "type": "Apartments",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "111 S Church Ave, Tucson",
-          "gateCodes": [
-            "7895"
-          ]
-        }
-      ]
-    },
-    {
-      "community": "Limberlost",
-      "type": "Residential",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "801 W Limberlost Dr, Tucson",
-          "gateCodes": [
-            "4909"
-          ]
-        }
-      ]
-    },
-    {
-      "community": "Luna Azul",
-      "type": "Apartments",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "6300 / 6380 N Camino Verde, Marana",
-          "gateCodes": [
-            "6262"
-          ]
-        }
-      ]
-    },
-    {
-      "community": "Madera Highlands",
-      "type": "Residential",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "1123 E Lumberjack Trl, Sahuarita",
-          "gateCodes": []
-        }
-      ]
-    },
-    {
-      "community": "Madera Shadows",
-      "type": "Residential",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "648 E Canyon Rock Rd, Green Valley",
-          "gateCodes": []
-        }
-      ]
-    },
-    {
-      "community": "Marana",
-      "type": "Residential",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "3666 W Cottonwood Wash Way, Marana",
-          "gateCodes": [
-            "0185"
-          ]
-        }
-      ]
-    },
-    {
-      "community": "Metro Tucson Apartments",
-      "type": "Apartments",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "3985 N Stone Ave, Tucson",
-          "gateCodes": [
-            "1315"
-          ]
-        }
-      ]
-    },
-    {
-      "community": "Mira Vista",
-      "type": "Apartments",
-      "subCommunities": [
-        {
-          "name": "Estates",
-          "address": "12143 E Mira Vista Canyon Pl, Oro Valley",
-          "gateCodes": [
-            "2942",
-            "6977"
-          ]
-        },
-        {
-          "name": "Resort",
-          "address": "7525 N Wade Rd, Marana",
-          "gateCodes": [
-            "6854"
-          ]
-        }
-      ]
-    },
-    {
-      "community": "Miracle Mile",
-      "type": "Residential",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "1202 W Miracle Mile, Tucson",
-          "gateCodes": [
-            "1210"
-          ]
-        }
-      ]
-    },
-    {
-      "community": "Mission Area",
-      "type": "Residential",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "5505 S Mission Rd, Tucson",
-          "gateCodes": [
-            "5555"
-          ]
-        }
-      ]
-    },
-    {
-      "community": "Mission Tierra Apartments",
-      "type": "Apartments",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "5505 S Mission Rd (Mission Tierra Apts), Tucson",
-          "gateCodes": []
-        }
-      ]
-    },
-    {
-      "community": "Montage Vista",
-      "type": "Residential",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "2956 W Encelia Ct, Marana",
-          "gateCodes": [
-            "9031"
-          ]
-        }
-      ]
-    },
-    {
-      "community": "Navajo Apartment",
-      "type": "Residential",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "104 W Navajo St, Tucson",
-          "gateCodes": [
-            "5892"
-          ]
-        }
-      ]
-    },
-    {
-      "community": "Oracle Foothills Estates",
-      "type": "Residential",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "2650 N Oracle Rd, Tucson",
-          "gateCodes": [
-            "0126",
-            "1106"
-          ]
-        }
-      ]
-    },
-    {
-      "community": "Oracle Palms Apartments",
-      "type": "Apartments",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "4045 N Oracle Rd, Tucson",
-          "gateCodes": []
-        }
-      ]
-    },
-    {
-      "community": "Park Place Apartments",
-      "type": "Residential",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "2363 E Orange Grove Rd, Tucson",
-          "gateCodes": [
-            "1074"
-          ]
-        }
-      ]
-    },
-    {
-      "community": "Pepper Ridge",
-      "type": "Residential",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "7566 W Pepper Ridge Rd, Tucson",
-          "gateCodes": []
-        }
-      ]
-    },
-    {
-      "community": "Pima Canyon Apartments",
-      "type": "Residential",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "750 W Orange Grove Rd, Tucson",
-          "gateCodes": [
-            "6160"
-          ]
-        }
-      ]
-    },
-    {
-      "community": "Posada del Rio",
-      "type": "Apartments",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "7424 E Speedway Blvd, Tucson",
-          "gateCodes": []
-        }
-      ]
-    },
-    {
-      "community": "Powderhorn Ranch",
-      "type": "Residential",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "2330 N Bonanza Ave, Tucson",
-          "gateCodes": []
-        }
-      ]
-    },
-    {
-      "community": "Presidio Palms Apartments",
-      "type": "Apartments",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "475 N Granada Ave, Tucson",
-          "gateCodes": []
-        }
-      ]
-    },
-    {
-      "community": "Pusch Ridge Vistas",
-      "type": "Residential",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "10 W Desert Knoll Pl, Tucson",
-          "gateCodes": [
-            "0820"
-          ]
-        }
-      ]
-    },
-    {
-      "community": "Rancho Agua Dulce",
-      "type": "Residential",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "4100 W Rocky Spring Dr, Tucson",
-          "gateCodes": [
-            "2542"
-          ]
-        }
-      ]
-    },
-    {
-      "community": "Rancho Esperero",
-      "type": "Residential",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "245-2489 Paseo Rancho Esperanza, Tucson",
-          "gateCodes": []
-        }
-      ]
-    },
-    {
-      "community": "Rancho Resort",
-      "type": "Residential",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "15900 S Rancho Resort Blvd, Sahuarita",
-          "gateCodes": []
-        }
-      ]
-    },
-    {
-      "community": "Rancho Sahuarita",
-      "type": "Residential",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "1163 W Calle De Sotelo, Sahuarita",
-          "gateCodes": [
-            "0099",
-            "1115",
-            "1163",
-            "1323",
-            "2022",
-            "2122",
-            "2784",
-            "4967",
-            "5765",
-            "7979"
-          ]
-        }
-      ]
-    },
-    {
-      "community": "Rancho Vistoso",
-      "type": "Residential",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "10767 N Cactus Point Dr, Oro Valley",
-          "gateCodes": [
-            "0201",
-            "0306",
-            "0819",
-            "0852",
-            "1031",
-            "1225",
-            "1269",
-            "1331",
-            "1521",
-            "1523",
-            "1818",
-            "1970",
-            "2380",
-            "2797",
-            "2825",
-            "3275",
-            "4000",
-            "5066",
-            "5515",
-            "5863",
-            "6458",
-            "7549",
-            "7677",
-            "8479",
-            "9172",
-            "9515",
-            "9525",
-            "9775"
-          ]
-        }
-      ]
-    },
-    {
-      "community": "Rendezvous Urban Flats",
-      "type": "Apartments",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "20 S Stone Ave, Tucson",
-          "gateCodes": []
-        }
-      ]
-    },
-    {
-      "community": "Ridgeline Apartments",
-      "type": "Residential",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "3980 W Linda Vista Blvd, Tucson",
-          "gateCodes": [
-            "3980"
-          ]
-        }
-      ]
-    },
-    {
-      "community": "Rincon Heights",
-      "type": "Residential",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "934 N 6th Ave, Tucson",
-          "gateCodes": [
-            "2154"
-          ]
-        }
-      ]
-    },
-    {
-      "community": "Rincon Valley / Saguaro East",
-      "type": "Residential",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "4198 S Saguaro Monument Pl, Tucson",
-          "gateCodes": [
-            "8765"
-          ]
-        }
-      ]
-    },
-    {
-      "community": "Rio Robles Estates",
-      "type": "Residential",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "4342 E Desert Oak Trl, Tucson",
-          "gateCodes": []
-        }
-      ]
-    },
-    {
-      "community": "Rita Ranch",
-      "type": "Residential",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "238 E Allthorn Pl, Tucson",
-          "gateCodes": [
-            "0852",
-            "1559"
-          ]
-        }
-      ]
-    },
-    {
-      "community": "Rocking K Ranch",
-      "type": "Residential",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "14013 E Crotalus Way, Vail",
-          "gateCodes": []
-        }
-      ]
-    },
-    {
-      "community": "Ruthrauff",
-      "type": "Residential",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "2305 W Ruthrauff Rd, Tucson",
-          "gateCodes": []
-        }
-      ]
-    },
-    {
-      "community": "Sabino Canyon",
-      "type": "Residential",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "1440 N Tanque Verde Loop Rd, Tucson",
-          "gateCodes": [
-            "0616"
-          ]
-        }
-      ]
-    },
-    {
-      "community": "Sabino Mountain",
-      "type": "Apartments",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "4081 N Quail Canyon Dr, Tucson",
-          "gateCodes": []
-        }
-      ]
-    },
-    {
-      "community": "Sabino Vista Apartments",
-      "type": "Residential",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "3515 N Sabino Canyon Rd, Tucson",
-          "gateCodes": [
-            "3515"
-          ]
-        }
-      ]
-    },
-    {
-      "community": "Sahara Apartments",
-      "type": "Residential",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "919 N Stone Ave, Tucson",
-          "gateCodes": []
-        }
-      ]
-    },
-    {
-      "community": "Sahuarita",
-      "type": "Residential",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "1321 W Vuelta Arvizu, Sahuarita",
-          "gateCodes": [
-            "1201",
-            "2933"
-          ]
-        }
-      ]
-    },
-    {
-      "community": "Sam Hughes",
-      "type": "Residential",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "349 E Calle Arizona, Tucson",
-          "gateCodes": [
-            "1261",
-            "5810"
-          ]
-        }
-      ]
-    },
-    {
-      "community": "Sandstone Apartments",
-      "type": "Apartments",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "405 E Prince Rd, Tucson",
-          "gateCodes": []
-        }
-      ]
-    },
-    {
-      "community": "Scenic Drive Estate",
-      "type": "Residential",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "8705 N Scenic Dr, Marana",
-          "gateCodes": [
-            "5558"
-          ]
-        }
-      ]
-    },
-    {
-      "community": "Sedona Pointe Apartments",
-      "type": "Apartments",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "2701 N Oracle Rd, Tucson",
-          "gateCodes": [
-            "1919"
-          ]
-        }
-      ]
-    },
-    {
-      "community": "Shadows at Sabino Canyon",
-      "type": "Residential",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "4333 W Mountain Quail Rd, Tucson",
-          "gateCodes": [
-            "1200"
-          ]
-        }
-      ]
-    },
-    {
-      "community": "Shadowtree Apartments",
-      "type": "Apartments",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "201 N Wilmot Rd, Tucson",
-          "gateCodes": []
-        }
-      ]
-    },
-    {
-      "community": "Silverbell Gateway",
-      "type": "Residential",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "430 N Silverbell Rd, Marana",
-          "gateCodes": []
-        }
-      ]
-    },
-    {
-      "community": "Skyline Gateway Apartments",
-      "type": "Apartments",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "4601 E Skyline Dr, Tucson",
-          "gateCodes": []
-        }
-      ]
-    },
-    {
-      "community": "Solana Spanish Villas",
-      "type": "Apartments",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "10700 E Tanque Verde Rd, Tucson",
-          "gateCodes": []
-        }
-      ]
-    },
-    {
-      "community": "South Tucson",
-      "type": "Residential",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "19190 S Alpha Ave Apt 8104, Tucson",
-          "gateCodes": [
-            "1172",
-            "3035",
-            "7777"
-          ]
-        }
-      ]
-    },
-    {
-      "community": "StoneWood Apartments",
-      "type": "Apartments",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "2621 N Estrella Ave, Tucson",
-          "gateCodes": [
-            "2621"
-          ]
-        }
-      ]
-    },
-    {
-      "community": "Sunrise Ranch",
-      "type": "Residential",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "11200 E Sunrise Ranch Pl, Oro Valley",
-          "gateCodes": [
-            "2650"
-          ]
-        }
-      ]
-    },
-    {
-      "community": "Sunset Canyon Estates",
-      "type": "Residential",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "11851 N Mesquite Sunset Pl, Oro Valley",
-          "gateCodes": [
-            "7467"
-          ]
-        }
-      ]
-    },
-    {
-      "community": "Sunset Dunes",
-      "type": "Apartments",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "4800 Sunset Rd, Marana",
-          "gateCodes": []
-        }
-      ]
-    },
-    {
-      "community": "Tangerine Crossing",
-      "type": "Residential",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "3407 W Copper Spirit Dr, Tucson",
-          "gateCodes": [
-            "0429",
-            "9765"
-          ]
-        }
-      ]
-    },
-    {
-      "community": "Tanque Verde / Foothills East",
-      "type": "Residential",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "10698 E Keystone Rd, Tucson",
-          "gateCodes": [
-            "2424",
-            "2914",
-            "4018",
-            "4128"
-          ]
-        }
-      ]
-    },
-    {
-      "community": "Tavira at Twin Peaks",
-      "type": "Residential",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "5203 W Brentwood Ln, Tucson",
-          "gateCodes": [
-            "5225"
-          ]
-        }
-      ]
-    },
-    {
-      "community": "The Flash Apartments",
-      "type": "Apartments",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "902 S 6th Ave, Tucson",
-          "gateCodes": [
-            "5563"
-          ]
-        }
-      ]
-    },
-    {
-      "community": "The Flin",
-      "type": "Apartments",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "110 S Church Ave, Tucson",
-          "gateCodes": []
-        }
-      ]
-    },
-    {
-      "community": "The Gallery",
-      "type": "Apartments",
-      "subCommunities": [
-        {
-          "name": "at Dove Mountain",
-          "address": "14204 N Silent Ridge Ct, Oro Valley",
-          "gateCodes": [
-            "8538"
-          ]
-        },
-        {
-          "name": "on Fifth",
-          "address": "127 S 5th Ave, Tucson",
-          "gateCodes": []
-        }
-      ]
-    },
-    {
-      "community": "The Pines",
-      "type": "Apartments",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "8480 N Continental Links Dr, Marana",
-          "gateCodes": [
-            "0124"
-          ]
-        }
-      ]
-    },
-    {
-      "community": "The Place at Riverwalk",
-      "type": "Apartments",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "3510 N Craycroft Rd, Tucson",
-          "gateCodes": []
-        }
-      ]
-    },
-    {
-      "community": "The Retreat at Speedway",
-      "type": "Apartments",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "7401 E Speedway Blvd, Tucson",
-          "gateCodes": []
-        }
-      ]
-    },
-    {
-      "community": "Tucson Avra West",
-      "type": "Residential",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "8720 N Ribbon Grass Ave, Tucson",
-          "gateCodes": [
-            "5871"
-          ]
-        }
-      ]
-    },
-    {
-      "community": "Tucson House",
-      "type": "Apartments",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "1501 N Oracle Rd, Tucson",
-          "gateCodes": []
-        }
-      ]
-    },
-    {
-      "community": "Two East Congress",
-      "type": "Apartments",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "2 E Congress St, Tucson",
-          "gateCodes": []
-        }
-      ]
-    },
-    {
-      "community": "Union on 6th",
-      "type": "Apartments",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "316 & 340 E 6th St, Tucson",
-          "gateCodes": [
-            "0340"
-          ]
-        }
-      ]
-    },
-    {
-      "community": "University Vista Apartments",
-      "type": "Apartments",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "951 E 10th St, Tucson",
-          "gateCodes": []
-        }
-      ]
-    },
-    {
-      "community": "Vail",
-      "type": "Residential",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "10753 S Miralago Dr, Vail",
-          "gateCodes": [
-            "0669",
-            "1431",
-            "1615",
-            "1730",
-            "3535",
-            "8786",
-            "9292"
-          ]
-        }
-      ]
-    },
-    {
-      "community": "Ventura Villas",
-      "type": "Apartments",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "238 W Ventura St, Tucson",
-          "gateCodes": [
-            "1102"
-          ]
-        }
-      ]
-    },
-    {
-      "community": "Villa Delano Apartments",
-      "type": "Apartments",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "255-243 E Delano St, Tucson",
-          "gateCodes": [
-            "1225"
-          ]
-        }
-      ]
-    },
-    {
-      "community": "Village at Orilla del Rio",
-      "type": "Residential",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "2389 E Autumn Flower Dr, Tucson",
-          "gateCodes": [
-            "1911",
-            "2446"
-          ]
-        }
-      ]
-    },
-    {
-      "community": "West Tucson",
-      "type": "Residential",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "1834 W Mountain Mirage Blvd, Tucson",
-          "gateCodes": [
-            "1193"
-          ]
-        }
-      ]
-    },
-    {
-      "community": "West University",
-      "type": "Residential",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "1150 N 7th Ave, Tucson",
-          "gateCodes": [
-            "1007",
-            "1912",
-            "2580"
-          ]
-        }
-      ]
-    },
-    {
-      "community": "Wingview at Del Lago",
-      "type": "Residential",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "13803 E Sage Hills Dr, Vail",
-          "gateCodes": []
-        }
-      ]
-    },
-    {
-      "community": "Zona Rio Apartments",
-      "type": "Residential",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "1001 W Saint Marys Rd, Tucson",
-          "gateCodes": [
-            "8762"
-          ]
-        }
-      ]
-    },
-    {
-      "community": "oLiv Tucson Apartments",
-      "type": "Student Housing",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "900 E 2nd St, Tucson",
-          "gateCodes": [
-            "0354"
-          ]
-        }
-      ]
-    },
-    {
-      "community": "\u00c1rbol de la Vida",
-      "type": "Apartments",
-      "subCommunities": [
-        {
-          "name": "Main Gate",
-          "address": "515 N Tyndall Ave E405, Tucson",
-          "gateCodes": [
-            "8318"
-          ]
-        }
-      ]
-    }
-  ]
-}
+[
+  {
+    "community": "Absolute Windows",
+    "type": "Businesses",
+    "address": "Community Gates",
+    "gateCodes": [
+      "5689"
+    ]
+  },
+  {
+    "community": "Agave Apartments",
+    "type": "Residential",
+    "address": "Community Gates",
+    "gateCodes": [
+      "6417"
+    ]
+  },
+  {
+    "community": "Amphi",
+    "type": "Residential",
+    "address": "Community Gates",
+    "gateCodes": [
+      "1661",
+      "4537",
+      "4637",
+      "7025",
+      "8777",
+      "9011"
+    ]
+  },
+  {
+    "community": "Aspire Tucson",
+    "type": "Apartments",
+    "address": "Community Gates",
+    "gateCodes": [
+      "0820"
+    ]
+  },
+  {
+    "community": "Avra Foothills Estates",
+    "type": "Residential",
+    "address": "Community Gates",
+    "gateCodes": [
+      "1029"
+    ]
+  },
+  {
+    "community": "Balboa Heights",
+    "type": "Residential",
+    "address": "Community Gates",
+    "gateCodes": [
+      "0982",
+      "2621"
+    ]
+  },
+  {
+    "community": "Barrio Blue Moon",
+    "type": "Residential",
+    "address": "Community Gates",
+    "gateCodes": [
+      "3120"
+    ]
+  },
+  {
+    "community": "Barrio Viejo",
+    "type": "Residential",
+    "address": "Community Gates",
+    "gateCodes": [
+      "1121",
+      "3171"
+    ]
+  },
+  {
+    "community": "Bear Canyon",
+    "type": "Residential",
+    "address": "Community Gates",
+    "gateCodes": [
+      "8618"
+    ]
+  },
+  {
+    "community": "Bear Canyon Apartments",
+    "type": "Apartments",
+    "address": "Community Gates",
+    "gateCodes": [
+      "4621"
+    ]
+  },
+  {
+    "community": "Bellas Catalinas Estates",
+    "type": "Residential",
+    "address": "Community Gates",
+    "gateCodes": []
+  },
+  {
+    "community": "Blenman-Elm",
+    "type": "Residential",
+    "address": "Community Gates",
+    "gateCodes": [
+      "0220",
+      "1730",
+      "2020"
+    ]
+  },
+  {
+    "community": "Bonita Ridge",
+    "type": "Residential",
+    "address": "Community Gates",
+    "gateCodes": [
+      "1492"
+    ]
+  },
+  {
+    "community": "Cabana Bridges",
+    "type": "Apartments",
+    "address": "Community Gates",
+    "gateCodes": []
+  },
+  {
+    "community": "Campus Crossings at Star Pass",
+    "type": "Apartments",
+    "address": "Community Gates",
+    "gateCodes": [
+      "2525"
+    ]
+  },
+  {
+    "community": "Canada Hills Estates",
+    "type": "Residential",
+    "address": "Community Gates",
+    "gateCodes": [
+      "5433"
+    ]
+  },
+  {
+    "community": "Canoa Terrace",
+    "type": "Apartments",
+    "address": "Community Gates",
+    "gateCodes": []
+  },
+  {
+    "community": "Casa Deena Apartments",
+    "type": "Apartments",
+    "address": "Community Gates",
+    "gateCodes": [
+      "3052"
+    ]
+  },
+  {
+    "community": "Casas Adobes",
+    "type": "Residential",
+    "address": "Community Gates",
+    "gateCodes": [
+      "6545",
+      "7003",
+      "9826"
+    ]
+  },
+  {
+    "community": "Casitas on Catalina",
+    "type": "Apartments",
+    "address": "Community Gates",
+    "gateCodes": []
+  },
+  {
+    "community": "Catalina Foothills Estates",
+    "type": "Residential",
+    "address": "Community Gates",
+    "gateCodes": []
+  },
+  {
+    "community": "Catalina Vista",
+    "type": "Apartments",
+    "address": "Community Gates",
+    "gateCodes": [
+      "4128"
+    ]
+  },
+  {
+    "community": "Continental Ranch",
+    "type": "Residential",
+    "address": "Community Gates",
+    "gateCodes": [
+      "0610",
+      "1224",
+      "4524",
+      "5100",
+      "5225",
+      "8608",
+      "9266"
+    ]
+  },
+  {
+    "community": "Continental Reserve",
+    "type": "Residential",
+    "address": "Community Gates",
+    "gateCodes": [
+      "6101"
+    ]
+  },
+  {
+    "community": "Cortland on the Loop",
+    "type": "Apartments",
+    "address": "Community Gates",
+    "gateCodes": [
+      "6160"
+    ]
+  },
+  {
+    "community": "Coyote Ridge",
+    "type": "Residential",
+    "address": "Community Gates",
+    "gateCodes": [
+      "1978"
+    ]
+  },
+  {
+    "community": "Dakotah Hills",
+    "type": "Apartments",
+    "address": "Community Gates",
+    "gateCodes": []
+  },
+  {
+    "community": "Descanso Estates",
+    "type": "Residential",
+    "address": "Community Gates",
+    "gateCodes": [
+      "2511"
+    ]
+  },
+  {
+    "community": "Desert Springs Apartments",
+    "type": "Apartments",
+    "address": "Community Gates",
+    "gateCodes": []
+  },
+  {
+    "community": "Desert Willow Ranch",
+    "type": "Residential",
+    "address": "Community Gates",
+    "gateCodes": [
+      "2580"
+    ]
+  },
+  {
+    "community": "Dove Mountain",
+    "type": "Residential",
+    "address": "Community Gates",
+    "gateCodes": [
+      "0612",
+      "1010",
+      "1102",
+      "1112",
+      "1125",
+      "1131",
+      "1604",
+      "1745",
+      "2017",
+      "2434",
+      "2442",
+      "2830",
+      "3741",
+      "3928",
+      "5150",
+      "6157",
+      "6506",
+      "8145",
+      "8442",
+      "8811",
+      "9261",
+      "9855",
+      "9876"
+    ]
+  },
+  {
+    "community": "Dunbar Spring",
+    "type": "Residential",
+    "address": "Community Gates",
+    "gateCodes": [
+      "0514",
+      "7016"
+    ]
+  },
+  {
+    "community": "East Tucson",
+    "type": "Residential",
+    "address": "Community Gates",
+    "gateCodes": [
+      "0354",
+      "3434",
+      "4295",
+      "7007",
+      "8342"
+    ]
+  },
+  {
+    "community": "Echo Luxury Apartments",
+    "type": "Apartments",
+    "address": "Community Gates",
+    "gateCodes": []
+  },
+  {
+    "community": "El Presidio",
+    "type": "Residential",
+    "address": "Community Gates",
+    "gateCodes": [
+      "1837",
+      "1920",
+      "3035"
+    ]
+  },
+  {
+    "community": "Empire Vista",
+    "type": "Residential",
+    "address": "Community Gates",
+    "gateCodes": [
+      "2981"
+    ]
+  },
+  {
+    "community": "Encantada Saguaro National",
+    "type": "Apartments",
+    "address": "Community Gates",
+    "gateCodes": []
+  },
+  {
+    "community": "Enclave de Nube",
+    "type": "Residential",
+    "address": "Community Gates",
+    "gateCodes": [
+      "0007",
+      "0104",
+      "1271",
+      "1492",
+      "3110",
+      "3257",
+      "5146",
+      "5862",
+      "6727",
+      "6752",
+      "7515",
+      "8367",
+      "9833"
+    ]
+  },
+  {
+    "community": "Flowing Wells",
+    "type": "Residential",
+    "address": "Community Gates",
+    "gateCodes": [
+      "0290",
+      "8888"
+    ]
+  },
+  {
+    "community": "Foothills / Sabino",
+    "type": "Residential",
+    "address": "Community Gates",
+    "gateCodes": [
+      "0351",
+      "2030"
+    ]
+  },
+  {
+    "community": "Foothills II",
+    "type": "Residential",
+    "address": "Community Gates",
+    "gateCodes": []
+  },
+  {
+    "community": "Frito Lay N. I-10 Frontage",
+    "type": "Businesses",
+    "address": "Community Gates",
+    "gateCodes": [
+      "0630"
+    ]
+  },
+  {
+    "community": "Gateway Apartments",
+    "type": "Apartments",
+    "address": "Community Gates",
+    "gateCodes": [
+      "7308"
+    ]
+  },
+  {
+    "community": "Green Ridge Estates",
+    "type": "Residential",
+    "address": "Community Gates",
+    "gateCodes": []
+  },
+  {
+    "community": "Green Valley",
+    "type": "Residential",
+    "address": "Community Gates",
+    "gateCodes": [
+      "2355"
+    ]
+  },
+  {
+    "community": "Hacienda del Rio",
+    "type": "Apartments",
+    "address": "Community Gates",
+    "gateCodes": []
+  },
+  {
+    "community": "Haciendas Catalina del Rey",
+    "type": "Residential",
+    "address": "Community Gates",
+    "gateCodes": [
+      "9511"
+    ]
+  },
+  {
+    "community": "Harrison Park Apartments",
+    "type": "Apartments",
+    "address": "Community Gates",
+    "gateCodes": []
+  },
+  {
+    "community": "Houghton Reserve",
+    "type": "Residential",
+    "address": "Community Gates",
+    "gateCodes": []
+  },
+  {
+    "community": "JD Ranch",
+    "type": "Residential",
+    "address": "Community Gates",
+    "gateCodes": []
+  },
+  {
+    "community": "Jefferson Park",
+    "type": "Residential",
+    "address": "Community Gates",
+    "gateCodes": [
+      "1234"
+    ]
+  },
+  {
+    "community": "John Spring",
+    "type": "Residential",
+    "address": "Community Gates",
+    "gateCodes": [
+      "2323",
+      "6590"
+    ]
+  },
+  {
+    "community": "Keeling",
+    "type": "Residential",
+    "address": "Community Gates",
+    "gateCodes": [
+      "5050"
+    ]
+  },
+  {
+    "community": "L6 Apartments",
+    "type": "Apartments",
+    "address": "Community Gates",
+    "gateCodes": [
+      "3241"
+    ]
+  },
+  {
+    "community": "La Hacienda Apartment Homes",
+    "type": "Apartments",
+    "address": "Community Gates",
+    "gateCodes": []
+  },
+  {
+    "community": "La Reserve",
+    "type": "Residential",
+    "address": "Community Gates",
+    "gateCodes": [
+      "7032"
+    ]
+  },
+  {
+    "community": "Lakes at Castle Rock",
+    "type": "Residential",
+    "address": "Community Gates",
+    "gateCodes": [
+      "5219"
+    ]
+  },
+  {
+    "community": "Lakes at Castle rock",
+    "type": "Residential",
+    "address": "Community Gates",
+    "gateCodes": [
+      "0553"
+    ]
+  },
+  {
+    "community": "Lakes at castle rock",
+    "type": "Residential",
+    "address": "Community Gates",
+    "gateCodes": [
+      "1957"
+    ]
+  },
+  {
+    "community": "Lalo Guerrero Apartments",
+    "type": "Apartments",
+    "address": "Community Gates",
+    "gateCodes": [
+      "7895"
+    ]
+  },
+  {
+    "community": "Limberlost",
+    "type": "Residential",
+    "address": "Community Gates",
+    "gateCodes": [
+      "4909"
+    ]
+  },
+  {
+    "community": "Luna Azul",
+    "type": "Apartments",
+    "address": "Community Gates",
+    "gateCodes": [
+      "6262"
+    ]
+  },
+  {
+    "community": "Madera Highlands",
+    "type": "Residential",
+    "address": "Community Gates",
+    "gateCodes": []
+  },
+  {
+    "community": "Madera Shadows",
+    "type": "Residential",
+    "address": "Community Gates",
+    "gateCodes": []
+  },
+  {
+    "community": "Marana",
+    "type": "Residential",
+    "address": "Community Gates",
+    "gateCodes": [
+      "0185"
+    ]
+  },
+  {
+    "community": "Metro Tucson Apartments",
+    "type": "Apartments",
+    "address": "Community Gates",
+    "gateCodes": [
+      "1315"
+    ]
+  },
+  {
+    "community": "Mira Vista Estates",
+    "type": "Residential",
+    "address": "Community Gates",
+    "gateCodes": [
+      "2942",
+      "6977"
+    ]
+  },
+  {
+    "community": "Mira Vista Resort",
+    "type": "Apartments",
+    "address": "Community Gates",
+    "gateCodes": [
+      "6854"
+    ]
+  },
+  {
+    "community": "Miracle Mile",
+    "type": "Residential",
+    "address": "Community Gates",
+    "gateCodes": [
+      "1210"
+    ]
+  },
+  {
+    "community": "Mission Area",
+    "type": "Residential",
+    "address": "Community Gates",
+    "gateCodes": [
+      "5555"
+    ]
+  },
+  {
+    "community": "Mission Tierra Apartments",
+    "type": "Apartments",
+    "address": "Community Gates",
+    "gateCodes": []
+  },
+  {
+    "community": "Montage Vista",
+    "type": "Residential",
+    "address": "Community Gates",
+    "gateCodes": [
+      "9031"
+    ]
+  },
+  {
+    "community": "Navajo Apartment",
+    "type": "Residential",
+    "address": "Community Gates",
+    "gateCodes": [
+      "5892"
+    ]
+  },
+  {
+    "community": "Oracle Foothills Estates",
+    "type": "Residential",
+    "address": "Community Gates",
+    "gateCodes": [
+      "0126",
+      "1106"
+    ]
+  },
+  {
+    "community": "Oracle Palms Apartments",
+    "type": "Apartments",
+    "address": "Community Gates",
+    "gateCodes": []
+  },
+  {
+    "community": "Park Place Apartments",
+    "type": "Residential",
+    "address": "Community Gates",
+    "gateCodes": [
+      "1074"
+    ]
+  },
+  {
+    "community": "Pepper Ridge",
+    "type": "Residential",
+    "address": "Community Gates",
+    "gateCodes": []
+  },
+  {
+    "community": "Pima Canyon Apartments",
+    "type": "Residential",
+    "address": "Community Gates",
+    "gateCodes": [
+      "6160"
+    ]
+  },
+  {
+    "community": "Posada del Rio",
+    "type": "Apartments",
+    "address": "Community Gates",
+    "gateCodes": []
+  },
+  {
+    "community": "Powderhorn Ranch",
+    "type": "Residential",
+    "address": "Community Gates",
+    "gateCodes": []
+  },
+  {
+    "community": "Presidio Palms Apartments",
+    "type": "Apartments",
+    "address": "Community Gates",
+    "gateCodes": []
+  },
+  {
+    "community": "Pusch Ridge Vistas",
+    "type": "Residential",
+    "address": "Community Gates",
+    "gateCodes": [
+      "0820"
+    ]
+  },
+  {
+    "community": "Rancho Agua Dulce",
+    "type": "Residential",
+    "address": "Community Gates",
+    "gateCodes": [
+      "2542"
+    ]
+  },
+  {
+    "community": "Rancho Esperero",
+    "type": "Residential",
+    "address": "Community Gates",
+    "gateCodes": [
+      "0351",
+      "2030"
+    ]
+  },
+  {
+    "community": "Rancho Resort",
+    "type": "Residential",
+    "address": "Community Gates",
+    "gateCodes": []
+  },
+  {
+    "community": "Rancho Sahuarita",
+    "type": "Residential",
+    "address": "Community Gates",
+    "gateCodes": [
+      "0099",
+      "1115",
+      "1163",
+      "1323",
+      "2022",
+      "2122",
+      "2784",
+      "4967",
+      "5765",
+      "7979"
+    ]
+  },
+  {
+    "community": "Rancho Vistoso",
+    "type": "Residential",
+    "address": "Community Gates",
+    "gateCodes": [
+      "0018",
+      "0201",
+      "0306",
+      "0819",
+      "0852",
+      "1005",
+      "1026",
+      "1031",
+      "1225",
+      "1269",
+      "1331",
+      "1521",
+      "1523",
+      "1815",
+      "1818",
+      "1970",
+      "1984",
+      "2012",
+      "2380",
+      "2797",
+      "2825",
+      "3232",
+      "3275",
+      "4000",
+      "5066",
+      "5225",
+      "5515",
+      "5863",
+      "6458",
+      "7549",
+      "7677",
+      "8479",
+      "8665",
+      "9172",
+      "9515",
+      "9525",
+      "9775"
+    ]
+  },
+  {
+    "community": "Rendezvous Urban Flats",
+    "type": "Apartments",
+    "address": "Community Gates",
+    "gateCodes": []
+  },
+  {
+    "community": "Ridgeline Apartments",
+    "type": "Residential",
+    "address": "Community Gates",
+    "gateCodes": [
+      "3980"
+    ]
+  },
+  {
+    "community": "Rincon Heights",
+    "type": "Residential",
+    "address": "Community Gates",
+    "gateCodes": [
+      "2154"
+    ]
+  },
+  {
+    "community": "Rincon Valley / Saguaro East",
+    "type": "Residential",
+    "address": "Community Gates",
+    "gateCodes": [
+      "8765"
+    ]
+  },
+  {
+    "community": "Rio Robles Estates",
+    "type": "Residential",
+    "address": "Community Gates",
+    "gateCodes": []
+  },
+  {
+    "community": "Rita Ranch",
+    "type": "Residential",
+    "address": "Community Gates",
+    "gateCodes": [
+      "0852",
+      "1559"
+    ]
+  },
+  {
+    "community": "Rocking K Ranch",
+    "type": "Residential",
+    "address": "Community Gates",
+    "gateCodes": []
+  },
+  {
+    "community": "Ruthrauff",
+    "type": "Residential",
+    "address": "Community Gates",
+    "gateCodes": [
+      "1111",
+      "2305"
+    ]
+  },
+  {
+    "community": "Sabino Canyon",
+    "type": "Residential",
+    "address": "Community Gates",
+    "gateCodes": [
+      "0616"
+    ]
+  },
+  {
+    "community": "Sabino Mountain",
+    "type": "Apartments",
+    "address": "Community Gates",
+    "gateCodes": []
+  },
+  {
+    "community": "Sabino Vista Apartments",
+    "type": "Residential",
+    "address": "Community Gates",
+    "gateCodes": [
+      "3515"
+    ]
+  },
+  {
+    "community": "Sahara Apartments",
+    "type": "Residential",
+    "address": "Community Gates",
+    "gateCodes": []
+  },
+  {
+    "community": "Sahuarita",
+    "type": "Residential",
+    "address": "Community Gates",
+    "gateCodes": [
+      "1201",
+      "2933"
+    ]
+  },
+  {
+    "community": "Sam Hughes",
+    "type": "Residential",
+    "address": "Community Gates",
+    "gateCodes": [
+      "1261",
+      "5810"
+    ]
+  },
+  {
+    "community": "Sandstone Apartments",
+    "type": "Apartments",
+    "address": "Community Gates",
+    "gateCodes": []
+  },
+  {
+    "community": "Scenic Drive Estate",
+    "type": "Residential",
+    "address": "Community Gates",
+    "gateCodes": [
+      "5558"
+    ]
+  },
+  {
+    "community": "Sedona Pointe Apartments",
+    "type": "Apartments",
+    "address": "Community Gates",
+    "gateCodes": [
+      "1919"
+    ]
+  },
+  {
+    "community": "Shadows at Sabino Canyon",
+    "type": "Residential",
+    "address": "Community Gates",
+    "gateCodes": [
+      "1200"
+    ]
+  },
+  {
+    "community": "Shadowtree Apartments",
+    "type": "Apartments",
+    "address": "Community Gates",
+    "gateCodes": []
+  },
+  {
+    "community": "Silverbell Gateway",
+    "type": "Residential",
+    "address": "Community Gates",
+    "gateCodes": [
+      "0001",
+      "7431"
+    ]
+  },
+  {
+    "community": "Skyline Gateway Apartments",
+    "type": "Apartments",
+    "address": "Community Gates",
+    "gateCodes": []
+  },
+  {
+    "community": "Solana Spanish Villas",
+    "type": "Apartments",
+    "address": "Community Gates",
+    "gateCodes": []
+  },
+  {
+    "community": "South Tucson",
+    "type": "Residential",
+    "address": "Community Gates",
+    "gateCodes": [
+      "1172",
+      "3035",
+      "7777"
+    ]
+  },
+  {
+    "community": "Stardance Event Center",
+    "type": "Businesses",
+    "address": "Community Gates",
+    "gateCodes": [
+      "4184"
+    ]
+  },
+  {
+    "community": "StoneWood Apartments",
+    "type": "Apartments",
+    "address": "Community Gates",
+    "gateCodes": [
+      "2621"
+    ]
+  },
+  {
+    "community": "Sunrise Ranch",
+    "type": "Residential",
+    "address": "Community Gates",
+    "gateCodes": [
+      "2650"
+    ]
+  },
+  {
+    "community": "Sunset Canyon Estates",
+    "type": "Residential",
+    "address": "Community Gates",
+    "gateCodes": [
+      "7467"
+    ]
+  },
+  {
+    "community": "Sunset Dunes",
+    "type": "Apartments",
+    "address": "Community Gates",
+    "gateCodes": [
+      "1058",
+      "1927",
+      "8501"
+    ]
+  },
+  {
+    "community": "Tangerine Crossing",
+    "type": "Residential",
+    "address": "Community Gates",
+    "gateCodes": [
+      "0429",
+      "9765"
+    ]
+  },
+  {
+    "community": "Tanque Verde / Foothills East",
+    "type": "Residential",
+    "address": "Community Gates",
+    "gateCodes": [
+      "2424",
+      "2914",
+      "4018",
+      "4128"
+    ]
+  },
+  {
+    "community": "Tavira at Twin Peaks",
+    "type": "Residential",
+    "address": "Community Gates",
+    "gateCodes": [
+      "5225"
+    ]
+  },
+  {
+    "community": "The Flash Apartments",
+    "type": "Apartments",
+    "address": "Community Gates",
+    "gateCodes": [
+      "5563"
+    ]
+  },
+  {
+    "community": "The Flin",
+    "type": "Apartments",
+    "address": "Community Gates",
+    "gateCodes": []
+  },
+  {
+    "community": "The Gallery at Dove Mountain",
+    "type": "Residential",
+    "address": "Community Gates",
+    "gateCodes": [
+      "8538"
+    ]
+  },
+  {
+    "community": "The Gallery on Fifth",
+    "type": "Apartments",
+    "address": "Community Gates",
+    "gateCodes": []
+  },
+  {
+    "community": "The JTH Tucson",
+    "type": "Businesses",
+    "address": "Community Gates",
+    "gateCodes": [
+      "2591"
+    ]
+  },
+  {
+    "community": "The Pines",
+    "type": "Apartments",
+    "address": "Community Gates",
+    "gateCodes": [
+      "0124"
+    ]
+  },
+  {
+    "community": "The Place at Riverwalk",
+    "type": "Apartments",
+    "address": "Community Gates",
+    "gateCodes": []
+  },
+  {
+    "community": "The Retreat at Speedway",
+    "type": "Apartments",
+    "address": "Community Gates",
+    "gateCodes": []
+  },
+  {
+    "community": "Tucson Avra West",
+    "type": "Residential",
+    "address": "Community Gates",
+    "gateCodes": [
+      "5871"
+    ]
+  },
+  {
+    "community": "Tucson House",
+    "type": "Apartments",
+    "address": "Community Gates",
+    "gateCodes": []
+  },
+  {
+    "community": "Two East Congress",
+    "type": "Apartments",
+    "address": "Community Gates",
+    "gateCodes": []
+  },
+  {
+    "community": "Union on 6th",
+    "type": "Apartments",
+    "address": "Community Gates",
+    "gateCodes": [
+      "0340"
+    ]
+  },
+  {
+    "community": "University Vista Apartments",
+    "type": "Apartments",
+    "address": "Community Gates",
+    "gateCodes": []
+  },
+  {
+    "community": "Vail",
+    "type": "Residential",
+    "address": "Community Gates",
+    "gateCodes": [
+      "0669",
+      "1431",
+      "1615",
+      "1730",
+      "3535",
+      "8786",
+      "9292"
+    ]
+  },
+  {
+    "community": "Ventura Villas",
+    "type": "Apartments",
+    "address": "Community Gates",
+    "gateCodes": [
+      "1102"
+    ]
+  },
+  {
+    "community": "Villa Delano Apartments",
+    "type": "Apartments",
+    "address": "Community Gates",
+    "gateCodes": [
+      "1225"
+    ]
+  },
+  {
+    "community": "Village at Orilla del Rio",
+    "type": "Residential",
+    "address": "Community Gates",
+    "gateCodes": [
+      "1911",
+      "2446"
+    ]
+  },
+  {
+    "community": "West Tucson",
+    "type": "Residential",
+    "address": "Community Gates",
+    "gateCodes": [
+      "1193"
+    ]
+  },
+  {
+    "community": "West University",
+    "type": "Residential",
+    "address": "Community Gates",
+    "gateCodes": [
+      "1007",
+      "1912",
+      "2580"
+    ]
+  },
+  {
+    "community": "Wingview at Del Lago",
+    "type": "Residential",
+    "address": "Community Gates",
+    "gateCodes": []
+  },
+  {
+    "community": "Zona Rio Apartments",
+    "type": "Residential",
+    "address": "Community Gates",
+    "gateCodes": [
+      "8762"
+    ]
+  },
+  {
+    "community": "oLiv Tucson Apartments",
+    "type": "Apartments",
+    "address": "Community Gates",
+    "gateCodes": [
+      "0354"
+    ]
+  },
+  {
+    "community": "\u00c1rbol de la Vida",
+    "type": "Apartments",
+    "address": "Community Gates",
+    "gateCodes": [
+      "8318"
+    ]
+  }
+]
