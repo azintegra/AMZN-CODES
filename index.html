@@ -1,109 +1,97 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Gate Codes</title>
+
   <style>
-    body {
-      margin: 0;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-      background: #000;
-      color: #fff;
+    body { margin:0; font-family:sans-serif; background:#000; color:#fff; }
+    header { text-align:center; padding:1.2rem; border-bottom:1px solid #222; }
+
+    .tabs { 
+      display:flex; 
+      justify-content:center; 
+      gap:0.75rem; 
+      margin-top:1rem; 
+      flex-wrap:wrap;
     }
 
-    header {
-      text-align: center;
-      padding: 1.5rem 1rem 1rem;
-      border-bottom: 1px solid #222;
+    .tab { 
+      padding:0.5rem 1.2rem; 
+      border-radius:999px; 
+      border:1px solid #444; 
+      background:#111; 
+      cursor:pointer; 
+      font-size:0.9rem;
     }
 
-    h1 {
-      margin: 0;
-      font-size: 1.8rem;
-      font-weight: 600;
+    .tab.active { 
+      background:#333; 
+      border-color:#777; 
     }
 
-    .tabs {
-      display: flex;
-      justify-content: center;
-      gap: 0.75rem;
-      margin-top: 1rem;
-      flex-wrap: wrap;
+    .grid { 
+      display:grid; 
+      gap:1.5rem; 
+      padding:1.5rem; 
+      max-width:900px; 
+      margin:auto; 
     }
 
-    .tab {
-      padding: 0.5rem 1.2rem;
-      border-radius: 999px;
-      border: 1px solid #444;
-      background: #111;
-      cursor: pointer;
-      font-size: 0.9rem;
+    .card { 
+      background:#111; 
+      border:1px solid #333; 
+      border-radius:10px; 
+      padding:1.5rem; 
     }
 
-    .tab.active {
-      background: #333;
-      border-color: #666;
+    .community { 
+      font-weight:bold; 
+      font-size:1.2rem; 
+      margin:0; 
     }
 
-    .grid {
-      max-width: 900px;
-      margin: auto;
-      padding: 1.5rem 1rem 3rem;
-      display: grid;
-      gap: 1.5rem;
+    .address { 
+      color:#aaa; 
+      font-size:0.9rem; 
+      margin:0.4rem 0 1rem; 
+      line-height:1.4;
     }
 
-    .card {
-      background: #111;
-      border: 1px solid #333;
-      border-radius: 12px;
-      padding: 1.5rem;
+    .codes { margin:1rem 0; }
+
+    .code-pill { 
+      display:inline-block; 
+      background:#222; 
+      border:1px solid #555; 
+      color:#fff; 
+      padding:0.4rem 0.9rem; 
+      border-radius:999px; 
+      margin:0.25rem; 
+      font-family:monospace; 
+      font-size:0.85rem;
     }
 
-    .community {
-      font-size: 1.3rem;
-      font-weight: 600;
-      margin: 0 0 0.75rem 0;
+    .street-btn { 
+      background:#222; 
+      color:#fff; 
+      border:1px solid #555; 
+      padding:0.6rem 1.1rem; 
+      border-radius:6px; 
+      cursor:pointer; 
+      text-decoration:none; 
+      display:inline-block; 
+      margin-top:1rem; 
+      font-size:0.85rem;
     }
 
-    .address {
-      color: #aaa;
-      font-size: 0.9rem;
-      margin: 0.2rem 0;
-    }
+    .street-btn:hover { background:#333; }
 
-    .codes {
-      margin-top: 1rem;
-    }
-
-    .code-pill {
-      display: inline-block;
-      background: #222;
-      border: 1px solid #555;
-      padding: 0.4rem 1rem;
-      border-radius: 999px;
-      margin: 0.3rem 0.3rem 0 0;
-      font-family: monospace;
-    }
-
-    .street-btn {
-      display: inline-block;
-      margin-top: 1rem;
-      padding: 0.6rem 1.2rem;
-      border-radius: 8px;
-      border: 1px solid #555;
-      background: #222;
-      color: #fff;
-      text-decoration: none;
-      font-size: 0.9rem;
-    }
-
-    .street-btn:hover {
-      background: #333;
-    }
+    .empty { text-align:center; color:#888; padding:2rem; }
   </style>
 </head>
+
 <body>
 
 <header>
@@ -112,20 +100,26 @@
     <div class="tab active" data-type="Residential">Residential</div>
     <div class="tab" data-type="Apartments">Apartments</div>
     <div class="tab" data-type="Student Housing">Student Housing</div>
-    <div class="tab" data-type="Businesses">Businesses</div>
+    <div class="tab" data-type="Business">Business</div>
   </div>
 </header>
 
 <div class="grid" id="grid"></div>
 
 <script>
+const dataUrl = 'data.json';
 let allData = [];
 
-fetch('data.json')
+fetch(dataUrl)
   .then(res => res.json())
   .then(data => {
     allData = data;
     render('Residential');
+  })
+  .catch(err => {
+    console.error('Fetch error:', err);
+    document.getElementById('grid').innerHTML = 
+      '<div class="empty">Could not load data.json</div>';
   });
 
 document.querySelectorAll('.tab').forEach(tab => {
@@ -143,37 +137,42 @@ function render(type) {
   const filtered = allData.filter(item => item.type === type);
 
   if (!filtered.length) {
-    grid.innerHTML = '<p style="text-align:center;color:#888;">No entries found.</p>';
+    grid.innerHTML = '<div class="empty">No entries for this category.</div>';
     return;
   }
 
   filtered.forEach(item => {
+
     const card = document.createElement('div');
     card.className = 'card';
 
-    const addressesHTML = item.addresses
-      .map(addr => `<p class="address">${addr}</p>`)
-      .join('');
+    const addressesHtml = item.addresses && item.addresses.length
+      ? item.addresses.join('<br>')
+      : 'Community Gate';
 
-    const codesHTML = item.gateCodes.length
-      ? item.gateCodes.map(code =>
+    const codesHtml = item.gateCodes && item.gateCodes.length
+      ? item.gateCodes.map(code => 
           `<span class="code-pill">#${code}</span>`
         ).join(' ')
-      : '<p style="color:#888;">No Gate Codes Listed</p>';
+      : '<span style="color:#888;">No codes listed</span>';
+
+    const streetQuery = item.addresses && item.addresses.length
+      ? encodeURIComponent(item.addresses[0] + ', Tucson AZ')
+      : '';
 
     card.innerHTML = `
       <h2 class="community">${item.community}</h2>
-      ${addressesHTML}
+      <p class="address">${addressesHtml}</p>
       <div class="codes">
         <strong>Gate Codes</strong><br>
-        ${codesHTML}
+        ${codesHtml}
       </div>
-      <a href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(item.addresses[0] + ', Tucson AZ')}"
-         target="_blank"
-         rel="noopener noreferrer"
+      ${streetQuery ? `
+      <a href="https://www.google.com/maps/search/?api=1&query=${streetQuery}" 
+         target="_blank" 
          class="street-btn">
          Street View
-      </a>
+      </a>` : ''}
     `;
 
     grid.appendChild(card);
