@@ -1,1564 +1,1115 @@
-[
-  {
-    "community": "Absolute Windows",
-    "type": "Business",
-    "addresses": [
-      "Absolute Windows #148, Tucson"
-    ],
-    "gateCodes": [
-      "5689"
-    ]
-  },
-  {
-    "community": "Agave Apartments",
-    "type": "Residential",
-    "addresses": [
-      "444 W Orange Grove Rd, Tucson"
-    ],
-    "gateCodes": [
-      "6417"
-    ]
-  },
-  {
-    "community": "Amphi",
-    "type": "Residential",
-    "addresses": [
-      "1560 W Fort Lowell, Tucson",
-      "2545 N Geronimo St, Tucson",
-      "2602 N 14th Ave, Tucson",
-      "2929 N Castro Ave, Tucson",
-      "3015 N Estrella, Tucson",
-      "3015 N Fontana Ave, Tucson",
-      "3533 N Estrella, Tucson",
-      "405 E Kelso St, Tucson",
-      "405 E Prince Rd, Tucson",
-      "450 E Kelso St, Tucson",
-      "455 E Kelso St, Tucson"
-    ],
-    "gateCodes": [
-      "11356",
-      "1661",
-      "20624",
-      "27037",
-      "4537",
-      "4637",
-      "7025",
-      "8777"
-    ]
-  },
-  {
-    "community": "Aspire Tucson",
-    "type": "Apartments",
-    "addresses": [
-      "905 N Tyndall Ave, Tucson"
-    ],
-    "gateCodes": [
-      "0820"
-    ]
-  },
-  {
-    "community": "Avra Foothills Estates",
-    "type": "Residential",
-    "addresses": [
-      "12001 W Calle Madero, Marana"
-    ],
-    "gateCodes": [
-      "1029"
-    ]
-  },
-  {
-    "community": "Balboa Heights",
-    "type": "Residential",
-    "addresses": [
-      "2621 N Estrella Ave, Tucson",
-      "3020 N Balboa, Tucson"
-    ],
-    "gateCodes": [
-      "0982",
-      "2621"
-    ]
-  },
-  {
-    "community": "Barrio Blue Moon",
-    "type": "Residential",
-    "addresses": [
-      "1401 N Oracle Rd, Tucson"
-    ],
-    "gateCodes": [
-      "3120"
-    ]
-  },
-  {
-    "community": "Barrio Viejo",
-    "type": "Residential",
-    "addresses": [
-      "201 S Stone Ave #502, Tucson",
-      "513 W Oury St, Tucson"
-    ],
-    "gateCodes": [
-      "1121",
-      "3171"
-    ]
-  },
-  {
-    "community": "Bear Canyon",
-    "type": "Residential",
-    "addresses": [
-      "2238 N Catalina Vista Loop, Tucson"
-    ],
-    "gateCodes": [
-      "8618"
-    ]
-  },
-  {
-    "community": "Bear Canyon Apartments",
-    "type": "Apartments",
-    "addresses": [
-      "9055 E Catalina Hwy, Tucson"
-    ],
-    "gateCodes": [
-      "4621"
-    ]
-  },
-  {
-    "community": "Bellas Catalinas Estates",
-    "type": "Residential",
-    "addresses": [
-      "4496 N Via Bellas Catalinas, Tucson"
-    ],
-    "gateCodes": []
-  },
-  {
-    "community": "Blenman-Elm",
-    "type": "Residential",
-    "addresses": [
-      "1800 N Stone Ave, Tucson",
-      "210 W Elm, Tucson",
-      "500 N Highland Ave, Tucson",
-      "602 N Highland Ave, Tucson"
-    ],
-    "gateCodes": [
-      "0220",
-      "1730",
-      "2020"
-    ]
-  },
-  {
-    "community": "Bonita Ridge",
-    "type": "Residential",
-    "addresses": [
-      "4802-4862 N Bonita Ridge Ave, Tucson"
-    ],
-    "gateCodes": [
-      "1492"
-    ]
-  },
-  {
-    "community": "Cabana Bridges",
-    "type": "Apartments",
-    "addresses": [
-      "1102 E 36th St, Tucson"
-    ],
-    "gateCodes": []
-  },
-  {
-    "community": "Campus Crossings at Star Pass",
-    "type": "Apartments",
-    "addresses": [
-      "2525 W Anklam Rd, Tucson"
-    ],
-    "gateCodes": [
-      "2525"
-    ]
-  },
-  {
-    "community": "Canada Hills Estates",
-    "type": "Residential",
-    "addresses": [
-      "10430 N Stargazer Dr, Oro Valley"
-    ],
-    "gateCodes": [
-      "5433"
-    ]
-  },
-  {
-    "community": "Canoa Terrace",
-    "type": "Apartments",
-    "addresses": [
-      "5812 S Azure Vista Way, Green Valley"
-    ],
-    "gateCodes": []
-  },
-  {
-    "community": "Casa Deena Apartments",
-    "type": "Apartments",
-    "addresses": [
-      "638 E Elm St, Tucson"
-    ],
-    "gateCodes": [
-      "3052"
-    ]
-  },
-  {
-    "community": "Casas Adobes",
-    "type": "Residential",
-    "addresses": [
-      "4701 E Ina Rd, Tucson",
-      "7759 N Silverbell Rd, Tucson",
-      "8150 N La Cholla Blvd Unit 6206, Tucson"
-    ],
-    "gateCodes": [
-      "6545",
-      "7003",
-      "9826"
-    ]
-  },
-  {
-    "community": "Casitas on Catalina",
-    "type": "Apartments",
-    "addresses": [
-      "9125 E Catalina Hwy, Tucson"
-    ],
-    "gateCodes": []
-  },
-  {
-    "community": "Catalina Foothills Estates",
-    "type": "Residential",
-    "addresses": [
-      "9125 E Catalina Hwy, Tucson"
-    ],
-    "gateCodes": []
-  },
-  {
-    "community": "Catalina Vista",
-    "type": "Apartments",
-    "addresses": [
-      "2291 N Powder Horn Dr, Tucson"
-    ],
-    "gateCodes": [
-      "4128"
-    ]
-  },
-  {
-    "community": "Continental Ranch",
-    "type": "Residential",
-    "addresses": [
-      "102-7178 W Ina Rd, Marana",
-      "10644 N Cactus Point Dr, Tucson",
-      "440-7496 W Ina Rd, Marana",
-      "5555 W Ina Rd, Marana",
-      "600 W Ina Rd, Marana",
-      "606 W Sugar Ranch Rd, Marana",
-      "901 N Cortaro Rd, Marana"
-    ],
-    "gateCodes": [
-      "0610",
-      "1224",
-      "5225",
-      "8608",
-      "9266"
-    ]
-  },
-  {
-    "community": "Continental Reserve",
-    "type": "Residential",
-    "addresses": [
-      "6101 W Arizona Pavilions Dr, Marana"
-    ],
-    "gateCodes": []
-  },
-  {
-    "community": "Cortland on the Loop",
-    "type": "Apartments",
-    "addresses": [
-      "50 W River Rd, Tucson"
-    ],
-    "gateCodes": [
-      "6160"
-    ]
-  },
-  {
-    "community": "Coyote Ridge",
-    "type": "Residential",
-    "addresses": [
-      "846 W Sleeping Snake Pl, Marana"
-    ],
-    "gateCodes": [
-      "1978"
-    ]
-  },
-  {
-    "community": "Dakotah Hills",
-    "type": "Apartments",
-    "addresses": [
-      "5675 N Camino Esplendora, Tucson"
-    ],
-    "gateCodes": []
-  },
-  {
-    "community": "Descanso Estates",
-    "type": "Residential",
-    "addresses": [
-      "10504 E Camino Palo Verde, Tucson"
-    ],
-    "gateCodes": [
-      "2511"
-    ]
-  },
-  {
-    "community": "Desert Springs Apartments",
-    "type": "Apartments",
-    "addresses": [
-      "6710 E Golf Links Rd, Tucson"
-    ],
-    "gateCodes": []
-  },
-  {
-    "community": "Desert Willow Ranch",
-    "type": "Residential",
-    "addresses": [
-      "2468 N Wychwood Ct, Marana"
-    ],
-    "gateCodes": [
-      "2580"
-    ]
-  },
-  {
-    "community": "Dove Mountain",
-    "type": "Residential",
-    "addresses": [
-      "13960 N Sonoran Links Ct, Marana",
-      "14116 N Desert Spoon Pass, Marana",
-      "14295 N Chaparral Sage Rd, Marana",
-      "1601 W Rattlesnake Pass, Tucson",
-      "1722 W Hawk Owl Way, Marana",
-      "1745 N Water Pl, Marana",
-      "1745 W Placita Del Rio, Marana",
-      "1772 N Renoir Way, Marana",
-      "1820 W Placita De La Cotonia, Marana",
-      "2062 N Whispering Bells Dr, Marana",
-      "2537 N Yellow Flower Trl, Marana",
-      "3191 N Spirit Dancer Trl, Marana",
-      "3335 N Bear Spring Trl, Marana",
-      "4050 W Aerie Dr, Tucson",
-      "4072 W Rawley Mine Ct, Tucson",
-      "4711 W Lone Dove Dr, Marana",
-      "4874 W Dove Nest Pl, Marana",
-      "5133 N Pelican River Way, Tucson",
-      "5787 W Silent Wash Pl, Marana",
-      "5961 W Copper Leaf Dr, Marana",
-      "5965 W Rough Rider Pl, Marana",
-      "6125 W Two Quail Ct, Marana",
-      "6148 W Seven Saguaros Cir, Marana"
-    ],
-    "gateCodes": [
-      "0612",
-      "1010",
-      "1102",
-      "1112",
-      "1125",
-      "1131",
-      "1604",
-      "1745",
-      "2017",
-      "2434",
-      "2442",
-      "2830",
-      "3741",
-      "3928",
-      "5150",
-      "6157",
-      "6506",
-      "8145",
-      "8442",
-      "8811",
-      "9261",
-      "9855",
-      "9876"
-    ]
-  },
-  {
-    "community": "Dunbar Spring",
-    "type": "Residential",
-    "addresses": [
-      "119 W Navajo St, Tucson",
-      "123 W Delano St, Tucson"
-    ],
-    "gateCodes": [
-      "0514",
-      "7016"
-    ]
-  },
-  {
-    "community": "East Tucson",
-    "type": "Residential",
-    "addresses": [
-      "1530 E Snyder Rd, Tucson",
-      "3381 N Camino La Jicarilla, Tucson",
-      "3423 N Camino La Jicarilla, Tucson",
-      "3898 N Camino Ojo De Agua, Tucson",
-      "6101 E Gehrig Ln, Tucson"
-    ],
-    "gateCodes": [
-      "0354",
-      "3434",
-      "4295",
-      "7007",
-      "8342"
-    ]
-  },
-  {
-    "community": "Echo Luxury Apartments",
-    "type": "Apartments",
-    "addresses": [
-      "6901 E Broadway Blvd, Tucson"
-    ],
-    "gateCodes": []
-  },
-  {
-    "community": "El Presidio",
-    "type": "Residential",
-    "addresses": [
-      "350 E Congress St, Tucson",
-      "Tucson, AZ 85701, Tucson"
-    ],
-    "gateCodes": [
-      "3035"
-    ]
-  },
-  {
-    "community": "Empire Vista",
-    "type": "Residential",
-    "addresses": [
-      "2414 E Agave Vista Dr, Marana"
-    ],
-    "gateCodes": [
-      "2981"
-    ]
-  },
-  {
-    "community": "Encantada Saguaro National",
-    "type": "Apartments",
-    "addresses": [
-      "5750 S Houghton Rd, Tucson"
-    ],
-    "gateCodes": []
-  },
-  {
-    "community": "Enclave de Nube",
-    "type": "Residential",
-    "addresses": [
-      "12595 E Fort Lowell Rd, Tucson",
-      "4121 E San Simeon, Tucson",
-      "4231 E Pontatoc Canyon Dr, Tucson",
-      "4302 N Hacienda Del Sol Rd, Tucson",
-      "4303 Evening Mist Ln, Tucson",
-      "4389 E Desert Oak Trail, Tucson",
-      "4500 E Sunrise Dr N04, Tucson",
-      "4838 N Bonita Ridge Ave, Tucson",
-      "5655 N 1st Ave, Tucson",
-      "6909 E Cloud Rd, Tucson",
-      "7224 E Knollwood Dr, Tucson",
-      "7384 E Placita Positivo, Tucson",
-      "7422 E Calle Convidado, Tucson"
-    ],
-    "gateCodes": [
-      "0007",
-      "0104",
-      "1271",
-      "1492",
-      "3110",
-      "3257",
-      "5146",
-      "5862",
-      "6727",
-      "6752",
-      "7515",
-      "8367",
-      "9833"
-    ]
-  },
-  {
-    "community": "Flowing Wells",
-    "type": "Residential",
-    "addresses": [
-      "4111 N Flowing Wells, Tucson",
-      "4700 W Prince Rd, Tucson"
-    ],
-    "gateCodes": [
-      "0290",
-      "8888"
-    ]
-  },
-  {
-    "community": "Foothills / Sabino",
-    "type": "Residential",
-    "addresses": [
-      "7430 E Calle Perpetuo, Tucson"
-    ],
-    "gateCodes": []
-  },
-  {
-    "community": "Foothills II",
-    "type": "Residential",
-    "addresses": [
-      "7046 N Mercer Spring Pl, Tucson"
-    ],
-    "gateCodes": []
-  },
-  {
-    "community": "Frito Lay N. I-10 Frontage",
-    "type": "Business",
-    "addresses": [
-      "Frito Lay N I-10 Frontage, Tucson"
-    ],
-    "gateCodes": [
-      "0630"
-    ]
-  },
-  {
-    "community": "Gateway Apartments",
-    "type": "Apartments",
-    "addresses": [
-      "1410 N Oracle Rd, Tucson"
-    ],
-    "gateCodes": [
-      "7308"
-    ]
-  },
-  {
-    "community": "Green Ridge Estates",
-    "type": "Residential",
-    "addresses": [
-      "10369 E Sonoran Vista Trl, Tucson"
-    ],
-    "gateCodes": []
-  },
-  {
-    "community": "Green Valley",
-    "type": "Residential",
-    "addresses": [
-      "1219 W Cholla Crest Dr, Oro Valley"
-    ],
-    "gateCodes": [
-      "2355"
-    ]
-  },
-  {
-    "community": "Hacienda del Rio",
-    "type": "Apartments",
-    "addresses": [
-      "3517 N Camino La Jicarrilla, Tucson"
-    ],
-    "gateCodes": []
-  },
-  {
-    "community": "Haciendas Catalina del Rey",
-    "type": "Residential",
-    "addresses": [
-      "5732 N Calle De La Reina, Tucson"
-    ],
-    "gateCodes": [
-      "9511"
-    ]
-  },
-  {
-    "community": "Harrison Park Apartments",
-    "type": "Apartments",
-    "addresses": [
-      "350 N Harrison Rd, Tucson"
-    ],
-    "gateCodes": []
-  },
-  {
-    "community": "Houghton Reserve",
-    "type": "Residential",
-    "addresses": [
-      "10338 E Red Slate Pl, Tucson"
-    ],
-    "gateCodes": []
-  },
-  {
-    "community": "JD Ranch",
-    "type": "Residential",
-    "addresses": [
-      "14221 E Wild Jesse Way, Vail"
-    ],
-    "gateCodes": []
-  },
-  {
-    "community": "Jefferson Park",
-    "type": "Residential",
-    "addresses": [
-      "250 E Grant Rd, Tucson"
-    ],
-    "gateCodes": [
-      "1234"
-    ]
-  },
-  {
-    "community": "John Spring",
-    "type": "Residential",
-    "addresses": [
-      "211 W King St, Tucson",
-      "50 W King St, Tucson"
-    ],
-    "gateCodes": [
-      "2323",
-      "6590"
-    ]
-  },
-  {
-    "community": "Keeling",
-    "type": "Residential",
-    "addresses": [
-      "557 W Thurber St, Tucson"
-    ],
-    "gateCodes": [
-      "5050"
-    ]
-  },
-  {
-    "community": "L6 Apartments",
-    "type": "Apartments",
-    "addresses": [
-      "835 N 6th Ave, Tucson"
-    ],
-    "gateCodes": [
-      "3241"
-    ]
-  },
-  {
-    "community": "La Hacienda Apartment Homes",
-    "type": "Apartments",
-    "addresses": [
-      "6161 E Pima St, Tucson"
-    ],
-    "gateCodes": []
-  },
-  {
-    "community": "La Reserve",
-    "type": "Residential",
-    "addresses": [
-      "2133 E Buck Ridge Pl, Marana"
-    ],
-    "gateCodes": [
-      "7032"
-    ]
-  },
-  {
-    "community": "Lakes at Castle Rock",
-    "type": "Residential",
-    "addresses": [
-      "2444 N Lightning A Dr, Marana",
-      "9490 N Castle Rock Dr, Tucson"
-    ],
-    "gateCodes": [
-      "5219"
-    ]
-  },
-  {
-    "community": "Lakes at Castle rock",
-    "type": "Residential",
-    "addresses": [
-      "9433 E Star Water Dr, Tucson"
-    ],
-    "gateCodes": [
-      "0553"
-    ]
-  },
-  {
-    "community": "Lakes at castle rock",
-    "type": "Residential",
-    "addresses": [
-      "9247 E Lakeside Ct, Tucson"
-    ],
-    "gateCodes": [
-      "1957"
-    ]
-  },
-  {
-    "community": "Lalo Guerrero Apartments",
-    "type": "Apartments",
-    "addresses": [
-      "111 S Church Ave, Tucson"
-    ],
-    "gateCodes": [
-      "7895"
-    ]
-  },
-  {
-    "community": "Limberlost",
-    "type": "Residential",
-    "addresses": [
-      "801 W Limberlost Dr, Tucson"
-    ],
-    "gateCodes": [
-      "4909"
-    ]
-  },
-  {
-    "community": "Luna Azul",
-    "type": "Apartments",
-    "addresses": [
-      "6300 / 6380 N Camino Verde, Marana"
-    ],
-    "gateCodes": [
-      "6262"
-    ]
-  },
-  {
-    "community": "Madera Highlands",
-    "type": "Residential",
-    "addresses": [
-      "1123 E Lumberjack Trl, Sahuarita"
-    ],
-    "gateCodes": []
-  },
-  {
-    "community": "Madera Shadows",
-    "type": "Residential",
-    "addresses": [
-      "648 E Canyon Rock Rd, Green Valley"
-    ],
-    "gateCodes": []
-  },
-  {
-    "community": "Marana",
-    "type": "Residential",
-    "addresses": [
-      "3666 W Cottonwood Wash Way, Marana"
-    ],
-    "gateCodes": [
-      "0185"
-    ]
-  },
-  {
-    "community": "Metro Tucson Apartments",
-    "type": "Apartments",
-    "addresses": [
-      "3985 N Stone Ave, Tucson"
-    ],
-    "gateCodes": [
-      "1315"
-    ]
-  },
-  {
-    "community": "Mira Vista Estates",
-    "type": "Residential",
-    "addresses": [
-      "12143 E Mira Vista Canyon Pl, Oro Valley",
-      "5101 N Glencoe Rd, Tucson"
-    ],
-    "gateCodes": [
-      "2942",
-      "6977"
-    ]
-  },
-  {
-    "community": "Mira Vista Resort",
-    "type": "Apartments",
-    "addresses": [
-      "7525 N Wade Rd, Marana"
-    ],
-    "gateCodes": [
-      "6854"
-    ]
-  },
-  {
-    "community": "Miracle Mile",
-    "type": "Residential",
-    "addresses": [
-      "1202 W Miracle Mile, Tucson"
-    ],
-    "gateCodes": [
-      "1210"
-    ]
-  },
-  {
-    "community": "Mission Area",
-    "type": "Residential",
-    "addresses": [
-      "5505 S Mission Rd, Tucson"
-    ],
-    "gateCodes": [
-      "5555"
-    ]
-  },
-  {
-    "community": "Mission Tierra Apartments",
-    "type": "Apartments",
-    "addresses": [
-      "5505 S Mission Rd (Mission Tierra Apts), Tucson"
-    ],
-    "gateCodes": []
-  },
-  {
-    "community": "Montage Vista",
-    "type": "Residential",
-    "addresses": [
-      "2956 W Encelia Ct, Marana"
-    ],
-    "gateCodes": [
-      "9031"
-    ]
-  },
-  {
-    "community": "Navajo Apartment",
-    "type": "Residential",
-    "addresses": [
-      "104 W Navajo St, Tucson"
-    ],
-    "gateCodes": [
-      "5892"
-    ]
-  },
-  {
-    "community": "Oracle Foothills Estates",
-    "type": "Residential",
-    "addresses": [
-      "2650 N Oracle Rd, Tucson",
-      "2727 N Oracle Rd, Tucson",
-      "2801 N Oracle Rd, Tucson"
-    ],
-    "gateCodes": [
-      "0126",
-      "05634",
-      "1106"
-    ]
-  },
-  {
-    "community": "Oracle Palms Apartments",
-    "type": "Apartments",
-    "addresses": [
-      "4045 N Oracle Rd, Tucson"
-    ],
-    "gateCodes": []
-  },
-  {
-    "community": "Park Place Apartments",
-    "type": "Residential",
-    "addresses": [
-      "2363 E Orange Grove Rd, Tucson"
-    ],
-    "gateCodes": [
-      "1074"
-    ]
-  },
-  {
-    "community": "Pepper Ridge",
-    "type": "Residential",
-    "addresses": [
-      "7566 W Pepper Ridge Rd, Tucson"
-    ],
-    "gateCodes": []
-  },
-  {
-    "community": "Pima Canyon Apartments",
-    "type": "Residential",
-    "addresses": [
-      "750 W Orange Grove Rd, Tucson"
-    ],
-    "gateCodes": [
-      "6160"
-    ]
-  },
-  {
-    "community": "Posada del Rio",
-    "type": "Apartments",
-    "addresses": [
-      "7424 E Speedway Blvd, Tucson"
-    ],
-    "gateCodes": []
-  },
-  {
-    "community": "Powderhorn Ranch",
-    "type": "Residential",
-    "addresses": [
-      "2330 N Bonanza Ave, Tucson"
-    ],
-    "gateCodes": []
-  },
-  {
-    "community": "Presidio Palms Apartments",
-    "type": "Apartments",
-    "addresses": [
-      "475 N Granada Ave, Tucson"
-    ],
-    "gateCodes": []
-  },
-  {
-    "community": "Pusch Ridge Vistas",
-    "type": "Residential",
-    "addresses": [
-      "10 W Desert Knoll Pl, Tucson"
-    ],
-    "gateCodes": [
-      "0820"
-    ]
-  },
-  {
-    "community": "Rancho Agua Dulce",
-    "type": "Residential",
-    "addresses": [
-      "4100 W Rocky Spring Dr, Tucson"
-    ],
-    "gateCodes": [
-      "2542"
-    ]
-  },
-  {
-    "community": "Rancho Esperero",
-    "type": "Residential",
-    "addresses": [
-      "245-2489 Paseo Rancho Esperanza, Tucson"
-    ],
-    "gateCodes": []
-  },
-  {
-    "community": "Rancho Resort",
-    "type": "Residential",
-    "addresses": [
-      "15900 S Rancho Resort Blvd, Sahuarita"
-    ],
-    "gateCodes": []
-  },
-  {
-    "community": "Rancho Sahuarita",
-    "type": "Residential",
-    "addresses": [
-      "1163 W Calle De Sotelo, Sahuarita",
-      "1289 W Via Cerro Colorado, Sahuarita",
-      "1343 W Vuelta Oruga, Sahuarita",
-      "15180 S Camino Del Velero, Sahuarita",
-      "2073 W Revayah Pl, Sahuarita",
-      "7800 S Bonanza Park Dr, Sahuarita",
-      "7855 S Bonanza Park Dr, Sahuarita",
-      "7935 S Bonanza Park Dr, Sahuarita",
-      "8014 S Golden Bell Dr, Sahuarita",
-      "8673 S Long Bar Ranch Pl, Sahuarita"
-    ],
-    "gateCodes": [
-      "0099",
-      "1115",
-      "1163",
-      "1323",
-      "2022",
-      "2122",
-      "2784",
-      "4967",
-      "5765",
-      "7979"
-    ]
-  },
-  {
-    "community": "Rancho Vistoso",
-    "type": "Residential",
-    "addresses": [
-      "10767 N Cactus Point Dr, Oro Valley",
-      "11247 N Big Star Trail, Tucson",
-      "11274 N Gemini Dr, Oro Valley",
-      "11449 N Meadow Sage Dr, Oro Valley",
-      "11470 N Ironwood Canyon Pl, Oro Valley",
-      "11470 N Ironwood Canyon Place, Oro Valley",
-      "11532 N Desert Calico Loop, Tucson",
-      "11573 N Copperbelle Pl, Oro Valley",
-      "11583 N Ironwood Canyon Pl, Tucson",
-      "11750 N Sweet Orange Pl, Oro Valley",
-      "11794 N Silverscape Dr, Oro Valley",
-      "11829 N Raphael Way, Oro Valley",
-      "11831 N Raphael Way, Oro Valley",
-      "12210 N Lopez Wells Ln, Oro Valley",
-      "12301 N Cloud Ridge Dr, Oro Valley",
-      "12309 N Washbed Dr, Oro Valley",
-      "12490 N Faraway Wash Trl, Oro Valley",
-      "12523 N New Reflection Dr, Oro Valley",
-      "13169 N Rainbow Cactus Ct, Oro Valley",
-      "13215 N Velvetweed Ct, Oro Valley",
-      "13330 N Cape Marigold Dr, Oro Valley",
-      "13359 N Cottontop Ct, Oro Valley",
-      "13401 N Rancho Vistoso Blvd, Oro Valley",
-      "13409 N Mariposa Lily Dr, Oro Valley",
-      "13468 N Silver Cassia Pl, Oro Valley",
-      "13710 N Carlynn Cliff Dr, Oro Valley",
-      "1644 W Sage Hill Dr, Oro Valley",
-      "1970 W Old Magee Trl Apt 5202, Oro Valley",
-      "2225 W Sculptor St, Oro Valley",
-      "2305 W Naranja Dr, Oro Valley",
-      "2305 W Naranja Dr, Oro Valley, Tucson",
-      "365 E Day Flower Dr, Oro Valley",
-      "5238 N Corral Canyon Pl, Oro Valley",
-      "625 N Arizona Estates Loop, Oro Valley",
-      "7963 N Placita Del Chango, Oro Valley"
-    ],
-    "gateCodes": [
-      "0201",
-      "0306",
-      "0819",
-      "0852",
-      "1031",
-      "1225",
-      "1269",
-      "1331",
-      "1521",
-      "1523",
-      "1818",
-      "1970",
-      "2380",
-      "2797",
-      "2825",
-      "3275",
-      "4000",
-      "5066",
-      "5515",
-      "5863",
-      "6458",
-      "7549",
-      "7677",
-      "8479",
-      "9172",
-      "9515",
-      "9525",
-      "9775"
-    ]
-  },
-  {
-    "community": "Rendezvous Urban Flats",
-    "type": "Apartments",
-    "addresses": [
-      "20 S Stone Ave, Tucson"
-    ],
-    "gateCodes": []
-  },
-  {
-    "community": "Ridgeline Apartments",
-    "type": "Residential",
-    "addresses": [
-      "3980 W Linda Vista Blvd, Tucson"
-    ],
-    "gateCodes": [
-      "3980"
-    ]
-  },
-  {
-    "community": "Rincon Heights",
-    "type": "Residential",
-    "addresses": [
-      "934 N 6th Ave, Tucson"
-    ],
-    "gateCodes": [
-      "2154"
-    ]
-  },
-  {
-    "community": "Rincon Valley / Saguaro East",
-    "type": "Residential",
-    "addresses": [
-      "4198 S Saguaro Monument Pl, Tucson"
-    ],
-    "gateCodes": [
-      "8765"
-    ]
-  },
-  {
-    "community": "Rio Robles Estates",
-    "type": "Residential",
-    "addresses": [
-      "4342 E Desert Oak Trl, Tucson"
-    ],
-    "gateCodes": []
-  },
-  {
-    "community": "Rita Ranch",
-    "type": "Residential",
-    "addresses": [
-      "238 E Allthorn Pl, Tucson",
-      "945 W Golden Barrel Ct, Tucson"
-    ],
-    "gateCodes": [
-      "0852",
-      "1559"
-    ]
-  },
-  {
-    "community": "Rocking K Ranch",
-    "type": "Residential",
-    "addresses": [
-      "14013 E Crotalus Way, Vail"
-    ],
-    "gateCodes": []
-  },
-  {
-    "community": "Ruthrauff",
-    "type": "Residential",
-    "addresses": [
-      "2305 W Ruthrauff Rd, Tucson"
-    ],
-    "gateCodes": []
-  },
-  {
-    "community": "Sabino Canyon",
-    "type": "Residential",
-    "addresses": [
-      "1440 N Tanque Verde Loop Rd, Tucson"
-    ],
-    "gateCodes": [
-      "0616"
-    ]
-  },
-  {
-    "community": "Sabino Mountain",
-    "type": "Apartments",
-    "addresses": [
-      "4081 N Quail Canyon Dr, Tucson"
-    ],
-    "gateCodes": []
-  },
-  {
-    "community": "Sabino Vista Apartments",
-    "type": "Residential",
-    "addresses": [
-      "3515 N Sabino Canyon Rd, Tucson"
-    ],
-    "gateCodes": [
-      "3515"
-    ]
-  },
-  {
-    "community": "Sahara Apartments",
-    "type": "Residential",
-    "addresses": [
-      "919 N Stone Ave, Tucson"
-    ],
-    "gateCodes": []
-  },
-  {
-    "community": "Sahuarita",
-    "type": "Residential",
-    "addresses": [
-      "1321 W Vuelta Arvizu, Sahuarita",
-      "262 E Placita Haciendas del Lago, Sahuarita"
-    ],
-    "gateCodes": [
-      "1201",
-      "2933"
-    ]
-  },
-  {
-    "community": "Sam Hughes",
-    "type": "Residential",
-    "addresses": [
-      "349 E Calle Arizona, Tucson",
-      "517 E Calle Arizona, Tucson"
-    ],
-    "gateCodes": [
-      "1261",
-      "5810"
-    ]
-  },
-  {
-    "community": "Sandstone Apartments",
-    "type": "Apartments",
-    "addresses": [
-      "405 E Prince Rd, Tucson"
-    ],
-    "gateCodes": [
-      "27037"
-    ]
-  },
-  {
-    "community": "Scenic Drive Estate",
-    "type": "Residential",
-    "addresses": [
-      "8705 N Scenic Dr, Marana"
-    ],
-    "gateCodes": [
-      "5558"
-    ]
-  },
-  {
-    "community": "Sedona Pointe Apartments",
-    "type": "Apartments",
-    "addresses": [
-      "2701 N Oracle Rd, Tucson"
-    ],
-    "gateCodes": [
-      "1919"
-    ]
-  },
-  {
-    "community": "Shadows at Sabino Canyon",
-    "type": "Residential",
-    "addresses": [
-      "4333 W Mountain Quail Rd, Tucson"
-    ],
-    "gateCodes": [
-      "1200"
-    ]
-  },
-  {
-    "community": "Shadowtree Apartments",
-    "type": "Apartments",
-    "addresses": [
-      "201 N Wilmot Rd, Tucson"
-    ],
-    "gateCodes": []
-  },
-  {
-    "community": "Silverbell Gateway",
-    "type": "Residential",
-    "addresses": [
-      "430 N Silverbell Rd, Marana",
-      "59 N Silverbell Rd, Marana"
-    ],
-    "gateCodes": []
-  },
-  {
-    "community": "Skyline Gateway Apartments",
-    "type": "Apartments",
-    "addresses": [
-      "4601 E Skyline Dr, Tucson"
-    ],
-    "gateCodes": []
-  },
-  {
-    "community": "Solana Spanish Villas",
-    "type": "Apartments",
-    "addresses": [
-      "10700 E Tanque Verde Rd, Tucson"
-    ],
-    "gateCodes": []
-  },
-  {
-    "community": "South Tucson",
-    "type": "Residential",
-    "addresses": [
-      "19190 S Alpha Ave Apt 8104, Tucson",
-      "3090 E Weymouth St, Tucson",
-      "4200 E Benson Hwy F8 F8, Tucson"
-    ],
-    "gateCodes": [
-      "1172",
-      "3035",
-      "7777"
-    ]
-  },
-  {
-    "community": "Stardance Event Center",
-    "type": "Business",
-    "addresses": [
-      "8110 N Scenic Dr, Tucson"
-    ],
-    "gateCodes": [
-      "4184"
-    ]
-  },
-  {
-    "community": "StoneWood Apartments",
-    "type": "Apartments",
-    "addresses": [
-      "2621 N Estrella Ave, Tucson"
-    ],
-    "gateCodes": [
-      "2621"
-    ]
-  },
-  {
-    "community": "Sunrise Ranch",
-    "type": "Residential",
-    "addresses": [
-      "11200 E Sunrise Ranch Pl, Oro Valley"
-    ],
-    "gateCodes": [
-      "2650"
-    ]
-  },
-  {
-    "community": "Sunset Canyon Estates",
-    "type": "Residential",
-    "addresses": [
-      "11851 N Mesquite Sunset Pl, Oro Valley"
-    ],
-    "gateCodes": [
-      "7467"
-    ]
-  },
-  {
-    "community": "Sunset Dunes",
-    "type": "Apartments",
-    "addresses": [
-      "4800 Sunset Rd, Marana"
-    ],
-    "gateCodes": []
-  },
-  {
-    "community": "Tangerine Crossing",
-    "type": "Residential",
-    "addresses": [
-      "3407 W Copper Spirit Dr, Tucson",
-      "3443 W Wing Tip Dr, Tucson"
-    ],
-    "gateCodes": [
-      "0429",
-      "9765"
-    ]
-  },
-  {
-    "community": "Tanque Verde / Foothills East",
-    "type": "Residential",
-    "addresses": [
-      "10698 E Keystone Rd, Tucson",
-      "11543 E Sundance Dr, Tucson",
-      "2201 N Powder Horn Dr, Tucson",
-      "3630 N Avenida De La Colina, Tucson"
-    ],
-    "gateCodes": [
-      "2424",
-      "2914",
-      "4018",
-      "4128"
-    ]
-  },
-  {
-    "community": "Tavira at Twin Peaks",
-    "type": "Residential",
-    "addresses": [
-      "5203 W Brentwood Ln, Tucson"
-    ],
-    "gateCodes": [
-      "5225"
-    ]
-  },
-  {
-    "community": "The Flash Apartments",
-    "type": "Apartments",
-    "addresses": [
-      "902 S 6th Ave, Tucson"
-    ],
-    "gateCodes": [
-      "5563"
-    ]
-  },
-  {
-    "community": "The Flin",
-    "type": "Apartments",
-    "addresses": [
-      "110 S Church Ave, Tucson"
-    ],
-    "gateCodes": []
-  },
-  {
-    "community": "The Gallery at Dove Mountain",
-    "type": "Residential",
-    "addresses": [
-      "14204 N Silent Ridge Ct, Oro Valley"
-    ],
-    "gateCodes": [
-      "8538"
-    ]
-  },
-  {
-    "community": "The Gallery on Fifth",
-    "type": "Apartments",
-    "addresses": [
-      "127 S 5th Ave, Tucson"
-    ],
-    "gateCodes": []
-  },
-  {
-    "community": "The JTH Tucson",
-    "type": "Business",
-    "addresses": [
-      "12051 W Fort Lowell Rd, Marana"
-    ],
-    "gateCodes": [
-      "2591"
-    ]
-  },
-  {
-    "community": "The Pines",
-    "type": "Apartments",
-    "addresses": [
-      "8480 N Continental Links Dr, Marana"
-    ],
-    "gateCodes": [
-      "0124"
-    ]
-  },
-  {
-    "community": "The Place at Riverwalk",
-    "type": "Apartments",
-    "addresses": [
-      "3510 N Craycroft Rd, Tucson"
-    ],
-    "gateCodes": []
-  },
-  {
-    "community": "The Retreat at Speedway",
-    "type": "Apartments",
-    "addresses": [
-      "7401 E Speedway Blvd, Tucson"
-    ],
-    "gateCodes": []
-  },
-  {
-    "community": "Tucson Avra West",
-    "type": "Residential",
-    "addresses": [
-      "8720 N Ribbon Grass Ave, Tucson"
-    ],
-    "gateCodes": [
-      "5871"
-    ]
-  },
-  {
-    "community": "Tucson House",
-    "type": "Apartments",
-    "addresses": [
-      "1501 N Oracle Rd, Tucson"
-    ],
-    "gateCodes": []
-  },
-  {
-    "community": "Two East Congress",
-    "type": "Apartments",
-    "addresses": [
-      "2 E Congress St, Tucson"
-    ],
-    "gateCodes": []
-  },
-  {
-    "community": "Union on 6th",
-    "type": "Apartments",
-    "addresses": [
-      "316 & 340 E 6th St, Tucson"
-    ],
-    "gateCodes": [
-      "0340"
-    ]
-  },
-  {
-    "community": "University Vista Apartments",
-    "type": "Apartments",
-    "addresses": [
-      "951 E 10th St, Tucson"
-    ],
-    "gateCodes": []
-  },
-  {
-    "community": "Vail",
-    "type": "Residential",
-    "addresses": [
-      "10753 S Miralago Dr, Vail",
-      "13740 S Bee Bonnet Ct, Vail",
-      "14162 E Huppenthal Blvd, Vail",
-      "1431 E Lower Mine Ln, Vail",
-      "36 E Peralta Canyon Ct, Vail",
-      "6795 E Calle La P, Vail",
-      "8778 E Corte Del Sol Bonito, Vail"
-    ],
-    "gateCodes": [
-      "0669",
-      "1431",
-      "1615",
-      "1730",
-      "3535",
-      "8786",
-      "9292"
-    ]
-  },
-  {
-    "community": "Ventura Villas",
-    "type": "Apartments",
-    "addresses": [
-      "238 W Ventura St, Tucson"
-    ],
-    "gateCodes": [
-      "1102"
-    ]
-  },
-  {
-    "community": "Villa Delano Apartments",
-    "type": "Apartments",
-    "addresses": [
-      "255-243 E Delano St, Tucson"
-    ],
-    "gateCodes": [
-      "1225"
-    ]
-  },
-  {
-    "community": "Village at Orilla del Rio",
-    "type": "Residential",
-    "addresses": [
-      "2389 E Autumn Flower Dr, Tucson",
-      "2446 E Blue Diamond Dr, Marana"
-    ],
-    "gateCodes": [
-      "1911",
-      "2446"
-    ]
-  },
-  {
-    "community": "West Tucson",
-    "type": "Residential",
-    "addresses": [
-      "1834 W Mountain Mirage Blvd, Tucson"
-    ],
-    "gateCodes": [
-      "1193"
-    ]
-  },
-  {
-    "community": "West University",
-    "type": "Residential",
-    "addresses": [
-      "1150 N 7th Ave, Tucson",
-      "1240 N 7th Ave, Tucson",
-      "415 E University Blvd, Tucson"
-    ],
-    "gateCodes": [
-      "1007",
-      "1912",
-      "2580"
-    ]
-  },
-  {
-    "community": "Wingview at Del Lago",
-    "type": "Residential",
-    "addresses": [
-      "13803 E Sage Hills Dr, Vail"
-    ],
-    "gateCodes": []
-  },
-  {
-    "community": "Zona Rio Apartments",
-    "type": "Residential",
-    "addresses": [
-      "1001 W Saint Marys Rd, Tucson"
-    ],
-    "gateCodes": [
-      "8762"
-    ]
-  },
-  {
-    "community": "oLiv Tucson Apartments",
-    "type": "Apartments",
-    "addresses": [
-      "900 E 2nd St, Tucson"
-    ],
-    "gateCodes": [
-      "0354"
-    ]
-  },
-  {
-    "community": "\u00c1rbol de la Vida",
-    "type": "Apartments",
-    "addresses": [
-      "515 N Tyndall Ave E405, Tucson"
-    ],
-    "gateCodes": [
-      "8318"
-    ]
-  }
-]
+{
+  "communities": [
+    {
+      "community": "Agave Apartments",
+      "type": "Residential",
+      "address": "444 W Orange Grove Rd, Tucson",
+      "gateCodes": [
+        "6417"
+      ]
+    },
+    {
+      "community": "Amphi",
+      "type": "Residential",
+      "address": "1560 W Fort Lowell, Tucson",
+      "gateCodes": [
+        "1661",
+        "4537",
+        "4637",
+        "7025",
+        "8777"
+      ]
+    },
+    {
+      "community": "Aspire Tucson",
+      "type": "Student Housing",
+      "address": "905 N Tyndall Ave, Tucson",
+      "gateCodes": [
+        "0820"
+      ]
+    },
+    {
+      "community": "Avra Foothills Estates",
+      "type": "Residential",
+      "address": "12001 W Calle Madero, Marana",
+      "gateCodes": [
+        "1029"
+      ]
+    },
+    {
+      "community": "Balboa Heights",
+      "type": "Residential",
+      "address": "2621 N Estrella Ave, Tucson",
+      "gateCodes": [
+        "0982",
+        "2621"
+      ]
+    },
+    {
+      "community": "Barrio Blue Moon",
+      "type": "Residential",
+      "address": "1401 N Oracle Rd, Tucson",
+      "gateCodes": [
+        "3120"
+      ]
+    },
+    {
+      "community": "Barrio Viejo",
+      "type": "Residential",
+      "address": "201 S Stone Ave #502, Tucson",
+      "gateCodes": [
+        "1121",
+        "3171"
+      ]
+    },
+    {
+      "community": "Bear Canyon",
+      "type": "Residential",
+      "address": "2238 N Catalina Vista Loop, Tucson",
+      "gateCodes": [
+        "8618"
+      ]
+    },
+    {
+      "community": "Bear Canyon Apartments",
+      "type": "Apartments",
+      "address": "9055 E Catalina Hwy, Tucson",
+      "gateCodes": [
+        "4621"
+      ]
+    },
+    {
+      "community": "Bellas Catalinas Estates",
+      "type": "Residential",
+      "address": "4496 N Via Bellas Catalinas, Tucson",
+      "gateCodes": []
+    },
+    {
+      "community": "Blenman-Elm",
+      "type": "Residential",
+      "address": "1800 N Stone Ave, Tucson",
+      "gateCodes": [
+        "0220",
+        "1730",
+        "2020"
+      ]
+    },
+    {
+      "community": "Bonita Ridge",
+      "type": "Residential",
+      "address": "4802-4862 N Bonita Ridge Ave, Tucson",
+      "gateCodes": [
+        "1492"
+      ]
+    },
+    {
+      "community": "Cabana Bridges",
+      "type": "Apartments",
+      "address": "1102 E 36th St, Tucson",
+      "gateCodes": []
+    },
+    {
+      "community": "Campus Crossings at Star Pass",
+      "type": "Student Housing",
+      "address": "2525 W Anklam Rd, Tucson",
+      "gateCodes": [
+        "2525"
+      ]
+    },
+    {
+      "community": "Canada Hills Estates",
+      "type": "Residential",
+      "address": "10430 N Stargazer Dr, Oro Valley",
+      "gateCodes": [
+        "5433"
+      ]
+    },
+    {
+      "community": "Canoa Terrace",
+      "type": "Apartments",
+      "address": "5812 S Azure Vista Way, Green Valley",
+      "gateCodes": []
+    },
+    {
+      "community": "Casa Deena Apartments",
+      "type": "Apartments",
+      "address": "638 E Elm St, Tucson",
+      "gateCodes": [
+        "3052"
+      ]
+    },
+    {
+      "community": "Casas Adobes",
+      "type": "Residential",
+      "address": "4701 E Ina Rd, Tucson",
+      "gateCodes": [
+        "6545",
+        "7003",
+        "9826"
+      ]
+    },
+    {
+      "community": "Casitas on Catalina",
+      "type": "Apartments",
+      "address": "9125 E Catalina Hwy, Tucson",
+      "gateCodes": []
+    },
+    {
+      "community": "Catalina Foothills Estates",
+      "type": "Residential",
+      "address": "9125 E Catalina Hwy, Tucson",
+      "gateCodes": []
+    },
+    {
+      "community": "Catalina Vista",
+      "type": "Apartments",
+      "address": "2291 N Powder Horn Dr, Tucson",
+      "gateCodes": [
+        "4128"
+      ]
+    },
+    {
+      "community": "Continental Ranch",
+      "type": "Residential",
+      "address": "102-7178 W Ina Rd, Marana",
+      "gateCodes": [
+        "0610",
+        "1224",
+        "5225",
+        "8608",
+        "9266"
+      ]
+    },
+    {
+      "community": "Continental Reserve",
+      "type": "Residential",
+      "address": "6101 W Arizona Pavilions Dr, Marana",
+      "gateCodes": []
+    },
+    {
+      "community": "Cortland on the Loop",
+      "type": "Apartments",
+      "address": "50 W River Rd, Tucson",
+      "gateCodes": [
+        "6160"
+      ]
+    },
+    {
+      "community": "Coyote Ridge",
+      "type": "Residential",
+      "address": "846 W Sleeping Snake Pl, Marana",
+      "gateCodes": [
+        "1978"
+      ]
+    },
+    {
+      "community": "Dakotah Hills",
+      "type": "Apartments",
+      "address": "5675 N Camino Esplendora, Tucson",
+      "gateCodes": []
+    },
+    {
+      "community": "Descanso Estates",
+      "type": "Residential",
+      "address": "10504 E Camino Palo Verde, Tucson",
+      "gateCodes": [
+        "2511"
+      ]
+    },
+    {
+      "community": "Desert Springs Apartments",
+      "type": "Apartments",
+      "address": "6710 E Golf Links Rd, Tucson",
+      "gateCodes": []
+    },
+    {
+      "community": "Desert Willow Ranch",
+      "type": "Residential",
+      "address": "2468 N Wychwood Ct, Marana",
+      "gateCodes": [
+        "2580"
+      ]
+    },
+    {
+      "community": "Dove Mountain",
+      "type": "Residential",
+      "address": "13960 N Sonoran Links Ct, Marana",
+      "gateCodes": [
+        "0612",
+        "1010",
+        "1102",
+        "1112",
+        "1125",
+        "1131",
+        "1604",
+        "1745",
+        "2017",
+        "2434",
+        "2442",
+        "2830",
+        "3741",
+        "3928",
+        "5150",
+        "6157",
+        "6506",
+        "8145",
+        "8442",
+        "8811",
+        "9261",
+        "9855",
+        "9876"
+      ]
+    },
+    {
+      "community": "Dunbar Spring",
+      "type": "Residential",
+      "address": "119 W Navajo St, Tucson",
+      "gateCodes": [
+        "0514",
+        "7016"
+      ]
+    },
+    {
+      "community": "East Tucson",
+      "type": "Residential",
+      "address": "1530 E Snyder Rd, Tucson",
+      "gateCodes": [
+        "0354",
+        "3434",
+        "4295",
+        "7007",
+        "8342"
+      ]
+    },
+    {
+      "community": "Echo Luxury Apartments",
+      "type": "Apartments",
+      "address": "6901 E Broadway Blvd, Tucson",
+      "gateCodes": []
+    },
+    {
+      "community": "El Presidio",
+      "type": "Residential",
+      "address": "350 E Congress St, Tucson",
+      "gateCodes": [
+        "3035"
+      ]
+    },
+    {
+      "community": "Empire Vista",
+      "type": "Residential",
+      "address": "2414 E Agave Vista Dr, Marana",
+      "gateCodes": [
+        "2981"
+      ]
+    },
+    {
+      "community": "Encantada Saguaro National",
+      "type": "Apartments",
+      "address": "5750 S Houghton Rd, Tucson",
+      "gateCodes": []
+    },
+    {
+      "community": "Enclave de Nube",
+      "type": "Residential",
+      "address": "12595 E Fort Lowell Rd, Tucson",
+      "gateCodes": [
+        "0007",
+        "0104",
+        "1271",
+        "1492",
+        "3110",
+        "3257",
+        "5146",
+        "5862",
+        "6727",
+        "6752",
+        "7515",
+        "8367",
+        "9833"
+      ]
+    },
+    {
+      "community": "Flowing Wells",
+      "type": "Residential",
+      "address": "4111 N Flowing Wells, Tucson",
+      "gateCodes": [
+        "0290",
+        "8888"
+      ]
+    },
+    {
+      "community": "Foothills / Sabino",
+      "type": "Residential",
+      "address": "7430 E Calle Perpetuo, Tucson",
+      "gateCodes": []
+    },
+    {
+      "community": "Foothills II",
+      "type": "Residential",
+      "address": "7046 N Mercer Spring Pl, Tucson",
+      "gateCodes": []
+    },
+    {
+      "community": "Gateway Apartments",
+      "type": "Apartments",
+      "address": "1410 N Oracle Rd, Tucson",
+      "gateCodes": [
+        "7308"
+      ]
+    },
+    {
+      "community": "Green Ridge Estates",
+      "type": "Residential",
+      "address": "10369 E Sonoran Vista Trl, Tucson",
+      "gateCodes": []
+    },
+    {
+      "community": "Green Valley",
+      "type": "Residential",
+      "address": "1219 W Cholla Crest Dr, Oro Valley",
+      "gateCodes": [
+        "2355"
+      ]
+    },
+    {
+      "community": "Hacienda del Rio",
+      "type": "Apartments",
+      "address": "3517 N Camino La Jicarrilla, Tucson",
+      "gateCodes": []
+    },
+    {
+      "community": "Haciendas Catalina del Rey",
+      "type": "Residential",
+      "address": "5732 N Calle De La Reina, Tucson",
+      "gateCodes": [
+        "9511"
+      ]
+    },
+    {
+      "community": "Harrison Park Apartments",
+      "type": "Apartments",
+      "address": "350 N Harrison Rd, Tucson",
+      "gateCodes": []
+    },
+    {
+      "community": "Houghton Reserve",
+      "type": "Residential",
+      "address": "10338 E Red Slate Pl, Tucson",
+      "gateCodes": []
+    },
+    {
+      "community": "JD Ranch",
+      "type": "Residential",
+      "address": "14221 E Wild Jesse Way, Vail",
+      "gateCodes": []
+    },
+    {
+      "community": "Jefferson Park",
+      "type": "Residential",
+      "address": "250 E Grant Rd, Tucson",
+      "gateCodes": [
+        "1234"
+      ]
+    },
+    {
+      "community": "John Spring",
+      "type": "Residential",
+      "address": "211 W King St, Tucson",
+      "gateCodes": [
+        "2323",
+        "6590"
+      ]
+    },
+    {
+      "community": "Keeling",
+      "type": "Residential",
+      "address": "557 W Thurber St, Tucson",
+      "gateCodes": [
+        "5050"
+      ]
+    },
+    {
+      "community": "L6 Apartments",
+      "type": "Apartments",
+      "address": "835 N 6th Ave, Tucson",
+      "gateCodes": [
+        "3241"
+      ]
+    },
+    {
+      "community": "La Hacienda Apartment Homes",
+      "type": "Apartments",
+      "address": "6161 E Pima St, Tucson",
+      "gateCodes": []
+    },
+    {
+      "community": "La Reserve",
+      "type": "Residential",
+      "address": "2133 E Buck Ridge Pl, Marana",
+      "gateCodes": [
+        "7032"
+      ]
+    },
+    {
+      "community": "Lakes at Castle Rock",
+      "type": "Residential",
+      "address": "2444 N Lightning A Dr, Marana",
+      "gateCodes": [
+        "5219"
+      ]
+    },
+    {
+      "community": "Lakes at Castle rock",
+      "type": "Residential",
+      "address": "9433 E Star Water Dr, Tucson",
+      "gateCodes": [
+        "0553"
+      ]
+    },
+    {
+      "community": "Lakes at castle rock",
+      "type": "Residential",
+      "address": "9247 E Lakeside Ct, Tucson",
+      "gateCodes": [
+        "1957"
+      ]
+    },
+    {
+      "community": "Lalo Guerrero Apartments",
+      "type": "Apartments",
+      "address": "111 S Church Ave, Tucson",
+      "gateCodes": [
+        "7895"
+      ]
+    },
+    {
+      "community": "Limberlost",
+      "type": "Residential",
+      "address": "801 W Limberlost Dr, Tucson",
+      "gateCodes": [
+        "4909"
+      ]
+    },
+    {
+      "community": "Luna Azul",
+      "type": "Apartments",
+      "address": "6300 / 6380 N Camino Verde, Marana",
+      "gateCodes": [
+        "6262"
+      ]
+    },
+    {
+      "community": "Madera Highlands",
+      "type": "Residential",
+      "address": "1123 E Lumberjack Trl, Sahuarita",
+      "gateCodes": []
+    },
+    {
+      "community": "Madera Shadows",
+      "type": "Residential",
+      "address": "648 E Canyon Rock Rd, Green Valley",
+      "gateCodes": []
+    },
+    {
+      "community": "Marana",
+      "type": "Residential",
+      "address": "3666 W Cottonwood Wash Way, Marana",
+      "gateCodes": [
+        "0185"
+      ]
+    },
+    {
+      "community": "Metro Tucson Apartments",
+      "type": "Apartments",
+      "address": "3985 N Stone Ave, Tucson",
+      "gateCodes": [
+        "1315"
+      ]
+    },
+    {
+      "community": "Mira Vista Estates",
+      "type": "Residential",
+      "address": "12143 E Mira Vista Canyon Pl, Oro Valley",
+      "gateCodes": [
+        "2942",
+        "6977"
+      ]
+    },
+    {
+      "community": "Mira Vista Resort",
+      "type": "Apartments",
+      "address": "7525 N Wade Rd, Marana",
+      "gateCodes": [
+        "6854"
+      ]
+    },
+    {
+      "community": "Miracle Mile",
+      "type": "Residential",
+      "address": "1202 W Miracle Mile, Tucson",
+      "gateCodes": [
+        "1210"
+      ]
+    },
+    {
+      "community": "Mission Area",
+      "type": "Residential",
+      "address": "5505 S Mission Rd, Tucson",
+      "gateCodes": [
+        "5555"
+      ]
+    },
+    {
+      "community": "Mission Tierra Apartments",
+      "type": "Apartments",
+      "address": "5505 S Mission Rd (Mission Tierra Apts), Tucson",
+      "gateCodes": []
+    },
+    {
+      "community": "Montage Vista",
+      "type": "Residential",
+      "address": "2956 W Encelia Ct, Marana",
+      "gateCodes": [
+        "9031"
+      ]
+    },
+    {
+      "community": "Navajo Apartment",
+      "type": "Residential",
+      "address": "104 W Navajo St, Tucson",
+      "gateCodes": [
+        "5892"
+      ]
+    },
+    {
+      "community": "Oracle Foothills Estates",
+      "type": "Residential",
+      "address": "2650 N Oracle Rd, Tucson",
+      "gateCodes": [
+        "0126",
+        "1106"
+      ]
+    },
+    {
+      "community": "Oracle Palms Apartments",
+      "type": "Apartments",
+      "address": "4045 N Oracle Rd, Tucson",
+      "gateCodes": []
+    },
+    {
+      "community": "Park Place Apartments",
+      "type": "Residential",
+      "address": "2363 E Orange Grove Rd, Tucson",
+      "gateCodes": [
+        "1074"
+      ]
+    },
+    {
+      "community": "Pepper Ridge",
+      "type": "Residential",
+      "address": "7566 W Pepper Ridge Rd, Tucson",
+      "gateCodes": []
+    },
+    {
+      "community": "Pima Canyon Apartments",
+      "type": "Residential",
+      "address": "750 W Orange Grove Rd, Tucson",
+      "gateCodes": [
+        "6160"
+      ]
+    },
+    {
+      "community": "Posada del Rio",
+      "type": "Apartments",
+      "address": "7424 E Speedway Blvd, Tucson",
+      "gateCodes": []
+    },
+    {
+      "community": "Powderhorn Ranch",
+      "type": "Residential",
+      "address": "2330 N Bonanza Ave, Tucson",
+      "gateCodes": []
+    },
+    {
+      "community": "Presidio Palms Apartments",
+      "type": "Apartments",
+      "address": "475 N Granada Ave, Tucson",
+      "gateCodes": []
+    },
+    {
+      "community": "Pusch Ridge Vistas",
+      "type": "Residential",
+      "address": "10 W Desert Knoll Pl, Tucson",
+      "gateCodes": [
+        "0820"
+      ]
+    },
+    {
+      "community": "Rancho Agua Dulce",
+      "type": "Residential",
+      "address": "4100 W Rocky Spring Dr, Tucson",
+      "gateCodes": [
+        "2542"
+      ]
+    },
+    {
+      "community": "Rancho Esperero",
+      "type": "Residential",
+      "address": "245-2489 Paseo Rancho Esperanza, Tucson",
+      "gateCodes": []
+    },
+    {
+      "community": "Rancho Resort",
+      "type": "Residential",
+      "address": "15900 S Rancho Resort Blvd, Sahuarita",
+      "gateCodes": []
+    },
+    {
+      "community": "Rancho Sahuarita",
+      "type": "Residential",
+      "address": "1163 W Calle De Sotelo, Sahuarita",
+      "gateCodes": [
+        "0099",
+        "1115",
+        "1163",
+        "1323",
+        "2022",
+        "2122",
+        "2784",
+        "4967",
+        "5765",
+        "7979"
+      ]
+    },
+    {
+      "community": "Rancho Vistoso",
+      "type": "Residential",
+      "address": "10767 N Cactus Point Dr, Oro Valley",
+      "gateCodes": [
+        "0201",
+        "0306",
+        "0819",
+        "0852",
+        "1031",
+        "1225",
+        "1269",
+        "1331",
+        "1521",
+        "1523",
+        "1818",
+        "1970",
+        "2380",
+        "2797",
+        "2825",
+        "3275",
+        "4000",
+        "5066",
+        "5515",
+        "5863",
+        "6458",
+        "7549",
+        "7677",
+        "8479",
+        "9172",
+        "9515",
+        "9525",
+        "9775"
+      ]
+    },
+    {
+      "community": "Rendezvous Urban Flats",
+      "type": "Apartments",
+      "address": "20 S Stone Ave, Tucson",
+      "gateCodes": []
+    },
+    {
+      "community": "Ridgeline Apartments",
+      "type": "Residential",
+      "address": "3980 W Linda Vista Blvd, Tucson",
+      "gateCodes": [
+        "3980"
+      ]
+    },
+    {
+      "community": "Rincon Heights",
+      "type": "Residential",
+      "address": "934 N 6th Ave, Tucson",
+      "gateCodes": [
+        "2154"
+      ]
+    },
+    {
+      "community": "Rincon Valley / Saguaro East",
+      "type": "Residential",
+      "address": "4198 S Saguaro Monument Pl, Tucson",
+      "gateCodes": [
+        "8765"
+      ]
+    },
+    {
+      "community": "Rio Robles Estates",
+      "type": "Residential",
+      "address": "4342 E Desert Oak Trl, Tucson",
+      "gateCodes": []
+    },
+    {
+      "community": "Rita Ranch",
+      "type": "Residential",
+      "address": "238 E Allthorn Pl, Tucson",
+      "gateCodes": [
+        "0852",
+        "1559"
+      ]
+    },
+    {
+      "community": "Rocking K Ranch",
+      "type": "Residential",
+      "address": "14013 E Crotalus Way, Vail",
+      "gateCodes": []
+    },
+    {
+      "community": "Ruthrauff",
+      "type": "Residential",
+      "address": "2305 W Ruthrauff Rd, Tucson",
+      "gateCodes": []
+    },
+    {
+      "community": "Sabino Canyon",
+      "type": "Residential",
+      "address": "1440 N Tanque Verde Loop Rd, Tucson",
+      "gateCodes": [
+        "0616"
+      ]
+    },
+    {
+      "community": "Sabino Mountain",
+      "type": "Apartments",
+      "address": "4081 N Quail Canyon Dr, Tucson",
+      "gateCodes": []
+    },
+    {
+      "community": "Sabino Vista Apartments",
+      "type": "Residential",
+      "address": "3515 N Sabino Canyon Rd, Tucson",
+      "gateCodes": [
+        "3515"
+      ]
+    },
+    {
+      "community": "Sahara Apartments",
+      "type": "Residential",
+      "address": "919 N Stone Ave, Tucson",
+      "gateCodes": []
+    },
+    {
+      "community": "Sahuarita",
+      "type": "Residential",
+      "address": "1321 W Vuelta Arvizu, Sahuarita",
+      "gateCodes": [
+        "1201",
+        "2933"
+      ]
+    },
+    {
+      "community": "Sam Hughes",
+      "type": "Residential",
+      "address": "349 E Calle Arizona, Tucson",
+      "gateCodes": [
+        "1261",
+        "5810"
+      ]
+    },
+    {
+      "community": "Sandstone Apartments",
+      "type": "Apartments",
+      "address": "405 E Prince Rd, Tucson",
+      "gateCodes": []
+    },
+    {
+      "community": "Scenic Drive Estate",
+      "type": "Residential",
+      "address": "8705 N Scenic Dr, Marana",
+      "gateCodes": [
+        "5558"
+      ]
+    },
+    {
+      "community": "Sedona Pointe Apartments",
+      "type": "Apartments",
+      "address": "2701 N Oracle Rd, Tucson",
+      "gateCodes": [
+        "1919"
+      ]
+    },
+    {
+      "community": "Shadows at Sabino Canyon",
+      "type": "Residential",
+      "address": "4333 W Mountain Quail Rd, Tucson",
+      "gateCodes": [
+        "1200"
+      ]
+    },
+    {
+      "community": "Shadowtree Apartments",
+      "type": "Apartments",
+      "address": "201 N Wilmot Rd, Tucson",
+      "gateCodes": []
+    },
+    {
+      "community": "Silverbell Gateway",
+      "type": "Residential",
+      "address": "430 N Silverbell Rd, Marana",
+      "gateCodes": []
+    },
+    {
+      "community": "Skyline Gateway Apartments",
+      "type": "Apartments",
+      "address": "4601 E Skyline Dr, Tucson",
+      "gateCodes": []
+    },
+    {
+      "community": "Solana Spanish Villas",
+      "type": "Apartments",
+      "address": "10700 E Tanque Verde Rd, Tucson",
+      "gateCodes": []
+    },
+    {
+      "community": "South Tucson",
+      "type": "Residential",
+      "address": "19190 S Alpha Ave Apt 8104, Tucson",
+      "gateCodes": [
+        "1172",
+        "3035",
+        "7777"
+      ]
+    },
+    {
+      "community": "StoneWood Apartments",
+      "type": "Apartments",
+      "address": "2621 N Estrella Ave, Tucson",
+      "gateCodes": [
+        "2621"
+      ]
+    },
+    {
+      "community": "Sunrise Ranch",
+      "type": "Residential",
+      "address": "11200 E Sunrise Ranch Pl, Oro Valley",
+      "gateCodes": [
+        "2650"
+      ]
+    },
+    {
+      "community": "Sunset Canyon Estates",
+      "type": "Residential",
+      "address": "11851 N Mesquite Sunset Pl, Oro Valley",
+      "gateCodes": [
+        "7467"
+      ]
+    },
+    {
+      "community": "Sunset Dunes",
+      "type": "Apartments",
+      "address": "4800 Sunset Rd, Marana",
+      "gateCodes": []
+    },
+    {
+      "community": "Tangerine Crossing",
+      "type": "Residential",
+      "address": "3407 W Copper Spirit Dr, Tucson",
+      "gateCodes": [
+        "0429",
+        "9765"
+      ]
+    },
+    {
+      "community": "Tanque Verde / Foothills East",
+      "type": "Residential",
+      "address": "10698 E Keystone Rd, Tucson",
+      "gateCodes": [
+        "2424",
+        "2914",
+        "4018",
+        "4128"
+      ]
+    },
+    {
+      "community": "Tavira at Twin Peaks",
+      "type": "Residential",
+      "address": "5203 W Brentwood Ln, Tucson",
+      "gateCodes": [
+        "5225"
+      ]
+    },
+    {
+      "community": "The Flash Apartments",
+      "type": "Apartments",
+      "address": "902 S 6th Ave, Tucson",
+      "gateCodes": [
+        "5563"
+      ]
+    },
+    {
+      "community": "The Flin",
+      "type": "Apartments",
+      "address": "110 S Church Ave, Tucson",
+      "gateCodes": []
+    },
+    {
+      "community": "The Gallery at Dove Mountain",
+      "type": "Residential",
+      "address": "14204 N Silent Ridge Ct, Oro Valley",
+      "gateCodes": [
+        "8538"
+      ]
+    },
+    {
+      "community": "The Gallery on Fifth",
+      "type": "Apartments",
+      "address": "127 S 5th Ave, Tucson",
+      "gateCodes": []
+    },
+    {
+      "community": "The Pines",
+      "type": "Apartments",
+      "address": "8480 N Continental Links Dr, Marana",
+      "gateCodes": [
+        "0124"
+      ]
+    },
+    {
+      "community": "The Place at Riverwalk",
+      "type": "Apartments",
+      "address": "3510 N Craycroft Rd, Tucson",
+      "gateCodes": []
+    },
+    {
+      "community": "The Retreat at Speedway",
+      "type": "Apartments",
+      "address": "7401 E Speedway Blvd, Tucson",
+      "gateCodes": []
+    },
+    {
+      "community": "Tucson Avra West",
+      "type": "Residential",
+      "address": "8720 N Ribbon Grass Ave, Tucson",
+      "gateCodes": [
+        "5871"
+      ]
+    },
+    {
+      "community": "Tucson House",
+      "type": "Apartments",
+      "address": "1501 N Oracle Rd, Tucson",
+      "gateCodes": []
+    },
+    {
+      "community": "Two East Congress",
+      "type": "Apartments",
+      "address": "2 E Congress St, Tucson",
+      "gateCodes": []
+    },
+    {
+      "community": "Union on 6th",
+      "type": "Apartments",
+      "address": "316 & 340 E 6th St, Tucson",
+      "gateCodes": [
+        "0340"
+      ]
+    },
+    {
+      "community": "University Vista Apartments",
+      "type": "Apartments",
+      "address": "951 E 10th St, Tucson",
+      "gateCodes": []
+    },
+    {
+      "community": "Vail",
+      "type": "Residential",
+      "address": "10753 S Miralago Dr, Vail",
+      "gateCodes": [
+        "0669",
+        "1431",
+        "1615",
+        "1730",
+        "3535",
+        "8786",
+        "9292"
+      ]
+    },
+    {
+      "community": "Ventura Villas",
+      "type": "Apartments",
+      "address": "238 W Ventura St, Tucson",
+      "gateCodes": [
+        "1102"
+      ]
+    },
+    {
+      "community": "Villa Delano Apartments",
+      "type": "Apartments",
+      "address": "255-243 E Delano St, Tucson",
+      "gateCodes": [
+        "1225"
+      ]
+    },
+    {
+      "community": "Village at Orilla del Rio",
+      "type": "Residential",
+      "address": "2389 E Autumn Flower Dr, Tucson",
+      "gateCodes": [
+        "1911",
+        "2446"
+      ]
+    },
+    {
+      "community": "West Tucson",
+      "type": "Residential",
+      "address": "1834 W Mountain Mirage Blvd, Tucson",
+      "gateCodes": [
+        "1193"
+      ]
+    },
+    {
+      "community": "West University",
+      "type": "Residential",
+      "address": "1150 N 7th Ave, Tucson",
+      "gateCodes": [
+        "1007",
+        "1912",
+        "2580"
+      ]
+    },
+    {
+      "community": "Wingview at Del Lago",
+      "type": "Residential",
+      "address": "13803 E Sage Hills Dr, Vail",
+      "gateCodes": []
+    },
+    {
+      "community": "Zona Rio Apartments",
+      "type": "Residential",
+      "address": "1001 W Saint Marys Rd, Tucson",
+      "gateCodes": [
+        "8762"
+      ]
+    },
+    {
+      "community": "oLiv Tucson Apartments",
+      "type": "Student Housing",
+      "address": "900 E 2nd St, Tucson",
+      "gateCodes": [
+        "0354"
+      ]
+    },
+    {
+      "community": "\u00c1rbol de la Vida",
+      "type": "Apartments",
+      "address": "515 N Tyndall Ave E405, Tucson",
+      "gateCodes": [
+        "8318"
+      ]
+    }
+  ]
+}
